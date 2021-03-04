@@ -404,7 +404,7 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
 
 .btn_get {
   font: 500 14px/47px "Poppins", sans-serif;
-  color: #6754e2;
+  color: #9fbf1a;
   border: 2px solid #87AC19;
   border-radius: 4px;
   box-shadow: 0px 20px 24px 0px rgba(0, 11, 40, 0.1);
@@ -435,7 +435,7 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
 
 .price_btn {
   font: 500 15px/53px "Poppins", sans-serif;
-  color: #6754e2;
+  color: #9fbf1a;
   border-width: 1px;
   border-style: solid;
   border-radius: 4px;
@@ -460,33 +460,33 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
 .btn_three {
   font: 500 14px "Poppins", sans-serif;
   color: #fff;
-  background: #7444fd;
+  background: #9fbf1a;
   border-radius: 3px;
   padding: 15px 30px;
-  border: 1px solid #7444fd;
+  border: 1px solid #9fbf1a;
   margin-top: 50px;
   transition: all 0.3s linear;
   cursor: pointer;
   display: inline-block;
 }
 .btn_three:hover {
-  color: #7444fd;
+  color: #9fbf1a;
   background: transparent;
 }
 
 .agency_banner_btn {
   font: 500 14px "Poppins", sans-serif;
   color: #fff;
-  background: #5e2ced;
+  background: #9fbf1a;
   box-shadow: 0px 20px 30px 0px rgba(12, 0, 46, 0.1);
   border-radius: 3px;
   padding: 16px 38px;
-  border: 1px solid #5e2ced;
+  border: 1px solid #9fbf1a;
   transition: all 0.2s linear;
   cursor: pointer;
 }
 .agency_banner_btn:hover {
-  color: #5e2ced;
+  color: #9fbf1a;
   box-shadow: none;
   background: transparent;
 }
@@ -509,16 +509,16 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
   transition: background 0.2s linear;
 }
 .agency_banner_btn_two:hover {
-  color: #5e2ced;
+  color: #9fbf1a;
 }
 .agency_banner_btn_two:hover:before {
-  background: #5e2ced;
+  background: #9fbf1a;
 }
 
 .software_banner_btn {
   font: 500 14px "Poppins", sans-serif;
   color: #fff;
-  background: #3d64f4;
+  background: #9fbf1a;
   box-shadow: 0px 20px 30px 0px rgba(12, 0, 46, 0.1);
   display: inline-block;
   padding: 16px 42px;
@@ -527,7 +527,7 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
   transition: all 0.2s linear;
 }
 .software_banner_btn:hover {
-  color: #3d64f4;
+  color: #9fbf1a;
   background: #fff;
 }
 
@@ -542,7 +542,7 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
   border-radius: 50%;
   background: #fff;
   display: inline-block;
-  color: #3d64f4;
+  color: #9fbf1a;
   text-align: center;
   line-height: 46px;
   font-size: 18px;
@@ -571,23 +571,23 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
   padding: 16px 40px;
   border-radius: 45px;
   color: #fff;
-  border: 1px solid #3d64f4;
-  background: #3d64f4;
+  border: 1px solid #9fbf1a;
+  background: #39fbf1ad64f4;
   cursor: pointer;
 }
 .btn_four:hover {
-  color: #3d64f4;
+  color: #9fbf1a;
   background: transparent;
 }
 
 .saas_banner_btn {
   padding: 16px 40px;
-  background: #3d57f4;
+  background: #9fbf1a;
   border-radius: 4px;
   color: #fff;
 }
 .saas_banner_btn:hover {
-  color: #3d57f4;
+  color: #9fbf1a;
   background: #fff;
 }
 
@@ -598,8 +598,8 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
   padding: 12px 28px;
 }
 .btn_five:hover {
-  background: #3d57f4;
-  border-color: #3d57f4;
+  background: #9fbf1a;
+  border-color: #9fbf1a;
 }
 
 .app_btn {
@@ -619,7 +619,7 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
 
 .gr_btn {
   font: 500 14px "Poppins", sans-serif;
-  color: #23b1fe;
+  color: #9fbf1a;
   display: inline-block;
   padding: 15px 31px;
   position: relative;
@@ -657,21 +657,21 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
 
 .btn_six {
   font-size: 15px;
-  border: 1px solid #17c7bd;
+  border: 1px solid #9fbf1a;
   padding: 13px 35px;
   transition: all 0.3s linear;
   display: inline-block;
 }
 .btn_six + .btn_six {
   background: #ebfaf9;
-  color: #17c7bd;
+  color: #9fbf1a;
   margin-left: 20px;
 }
 .btn_six + .btn_six i {
   padding-right: 5px;
 }
 .btn_six + .btn_six:hover {
-  background: #17c7bd;
+  background: #9fbf1a;
   color: #fff;
 }
 
@@ -682,11 +682,11 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
 }
 
 .seo_btn_one {
-  color: #5e2ced;
+  color: #9fbf1a;
   background: #e8e1fc;
 }
 .seo_btn_one:hover {
-  background: #5e2ced;
+  background: #9fbf1a;
   color: #fff;
 }
 
@@ -700,11 +700,11 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
 }
 
 .btn_1 {
-  border: 1px solid #5e2ced;
+  border: 1px solid #9fbf1a;
   border-radius: 25px;
   display: inline-block;
   padding: 10px 40px;
-  background: #5e2ced;
+  background: #9fbf1a;
   color: #fff;
   font-size: 16px;
   font-family: "Poppins", sans-serif;
