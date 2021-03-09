@@ -2,7 +2,7 @@
   "use strict";
 
   /*-------------------------------------------------------------------------------
-	  Navbar 
+	  Navbar
 	-------------------------------------------------------------------------------*/
 
   function navbarFixed() {
@@ -989,7 +989,7 @@
   hamberger_menu();
 
   /*-------------------------------------------------------------------------------
-	  Full screen sections 
+	  Full screen sections
 	-------------------------------------------------------------------------------*/
   if ($(".pagepiling").length > 0) {
     $(".pagepiling").pagepiling({
@@ -1026,12 +1026,12 @@
   var heading = $(".typed");
   if (heading.length) {
     heading.typed({
-      strings: ["Startups", "Business", "Agencies"],
+      strings: ["integral", "en todas partes"],
       // Optionally use an HTML element to grab strings from (must wrap each string in a <p>)
       stringsElement: null,
-      typeSpeed: 100,
+      typeSpeed: 30,
       startDelay: 500,
-      backSpeed: 100,
+      backSpeed: 50,
       backDelay: 500,
       loop: true,
       showCursor: true,

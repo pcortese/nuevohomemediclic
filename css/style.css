@@ -46,6 +46,10 @@ Table of Content:
 /*===== color =====*/
 /*====================================================*/
 /*====================================================*/
+* {
+  font-family: "Poppins", sans-serif;
+}
+
 a {
   text-decoration: none;
 }
@@ -383,7 +387,7 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
 }
 
 .sec_pad-80 {
-  padding: 80px 0px;
+  padding-top: 80px!important;
 }
 
 /*====================================================*/
@@ -403,8 +407,8 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
 }
 
 .btn_get {
-  font: 500 14px/47px "Poppins", sans-serif;
-  color: #9fbf1a;
+  font: 500 14px/40px "Poppins", sans-serif;
+  color: #6754e2;
   border: 2px solid #87AC19;
   border-radius: 4px;
   box-shadow: 0px 20px 24px 0px rgba(0, 11, 40, 0.1);
@@ -412,7 +416,7 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
   transform: perspective(1px) translateZ(0);
   transition-property: color;
   transition: all 0.3s ease;
-  min-width: 120px;
+  min-width: 110px;
   text-align: center;
 }
 .btn_get:hover {
@@ -435,7 +439,7 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
 
 .price_btn {
   font: 500 15px/53px "Poppins", sans-serif;
-  color: #9fbf1a;
+  color: #6754e2;
   border-width: 1px;
   border-style: solid;
   border-radius: 4px;
@@ -460,33 +464,33 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
 .btn_three {
   font: 500 14px "Poppins", sans-serif;
   color: #fff;
-  background: #9fbf1a;
+  background: #005baa;
   border-radius: 3px;
   padding: 15px 30px;
-  border: 1px solid #9fbf1a;
+  border: 1px solid #005baa;
   margin-top: 50px;
   transition: all 0.3s linear;
   cursor: pointer;
   display: inline-block;
 }
 .btn_three:hover {
-  color: #9fbf1a;
-  background: transparent;
+  color: #005baa;
+  background: rgba(255,255,255,0.5);
 }
 
 .agency_banner_btn {
   font: 500 14px "Poppins", sans-serif;
   color: #fff;
-  background: #9fbf1a;
+  background: #5e2ced;
   box-shadow: 0px 20px 30px 0px rgba(12, 0, 46, 0.1);
   border-radius: 3px;
   padding: 16px 38px;
-  border: 1px solid #9fbf1a;
+  border: 1px solid #5e2ced;
   transition: all 0.2s linear;
   cursor: pointer;
 }
 .agency_banner_btn:hover {
-  color: #9fbf1a;
+  color: #5e2ced;
   box-shadow: none;
   background: transparent;
 }
@@ -509,16 +513,16 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
   transition: background 0.2s linear;
 }
 .agency_banner_btn_two:hover {
-  color: #9fbf1a;
+  color: #5e2ced;
 }
 .agency_banner_btn_two:hover:before {
-  background: #9fbf1a;
+  background: #5e2ced;
 }
 
 .software_banner_btn {
   font: 500 14px "Poppins", sans-serif;
   color: #fff;
-  background: #9fbf1a;
+  background: #3d64f4;
   box-shadow: 0px 20px 30px 0px rgba(12, 0, 46, 0.1);
   display: inline-block;
   padding: 16px 42px;
@@ -527,7 +531,7 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
   transition: all 0.2s linear;
 }
 .software_banner_btn:hover {
-  color: #9fbf1a;
+  color: #3d64f4;
   background: #fff;
 }
 
@@ -542,7 +546,7 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
   border-radius: 50%;
   background: #fff;
   display: inline-block;
-  color: #9fbf1a;
+  color: #3d64f4;
   text-align: center;
   line-height: 46px;
   font-size: 18px;
@@ -571,23 +575,23 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
   padding: 16px 40px;
   border-radius: 45px;
   color: #fff;
-  border: 1px solid #9fbf1a;
-  background: #39fbf1ad64f4;
+  border: 1px solid #3d64f4;
+  background: #3d64f4;
   cursor: pointer;
 }
 .btn_four:hover {
-  color: #9fbf1a;
+  color: #3d64f4;
   background: transparent;
 }
 
 .saas_banner_btn {
   padding: 16px 40px;
-  background: #9fbf1a;
+  background: #3d57f4;
   border-radius: 4px;
   color: #fff;
 }
 .saas_banner_btn:hover {
-  color: #9fbf1a;
+  color: #3d57f4;
   background: #fff;
 }
 
@@ -598,8 +602,8 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
   padding: 12px 28px;
 }
 .btn_five:hover {
-  background: #9fbf1a;
-  border-color: #9fbf1a;
+  background: #3d57f4;
+  border-color: #3d57f4;
 }
 
 .app_btn {
@@ -607,7 +611,7 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
   background-color: #fff;
   display: inline-block;
   padding: 14px 40px;
-  color: #404040;
+  color: #606060;
   border-radius: 45px;
   border: 1px solid #fafafa;
 }
@@ -619,7 +623,7 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
 
 .gr_btn {
   font: 500 14px "Poppins", sans-serif;
-  color: #9fbf1a;
+  color: #23b1fe;
   display: inline-block;
   padding: 15px 31px;
   position: relative;
@@ -657,21 +661,21 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
 
 .btn_six {
   font-size: 15px;
-  border: 1px solid #9fbf1a;
+  border: 1px solid #17c7bd;
   padding: 13px 35px;
   transition: all 0.3s linear;
   display: inline-block;
 }
 .btn_six + .btn_six {
   background: #ebfaf9;
-  color: #9fbf1a;
+  color: #17c7bd;
   margin-left: 20px;
 }
 .btn_six + .btn_six i {
   padding-right: 5px;
 }
 .btn_six + .btn_six:hover {
-  background: #9fbf1a;
+  background: #17c7bd;
   color: #fff;
 }
 
@@ -682,11 +686,11 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
 }
 
 .seo_btn_one {
-  color: #9fbf1a;
+  color: #5e2ced;
   background: #e8e1fc;
 }
 .seo_btn_one:hover {
-  background: #9fbf1a;
+  background: #5e2ced;
   color: #fff;
 }
 
@@ -700,11 +704,11 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
 }
 
 .btn_1 {
-  border: 1px solid #9fbf1a;
+  border: 1px solid #5e2ced;
   border-radius: 25px;
   display: inline-block;
   padding: 10px 40px;
-  background: #9fbf1a;
+  background: #5e2ced;
   color: #fff;
   font-size: 16px;
   font-family: "Poppins", sans-serif;
@@ -887,7 +891,7 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
   padding: 0px;
 }
 .menu_one .btn_get {
-  margin-left: 40px;
+  margin-left: 20px;
 }
 
 .sticky_logo img + img {
@@ -903,8 +907,8 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
 
 .menu > .nav-item {
   position: relative;
-  padding-bottom: 35px;
-  padding-top: 35px;
+  padding-bottom: 30px;
+  padding-top: 30px;
 }
 .menu > .nav-item > .nav-link {
   font: 500 15px "Poppins", sans-serif;
@@ -1701,7 +1705,7 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
   left: 0;
   margin: 4px 0;
   display: block;
-  background: #5e2ced;
+  background: #98c11d;
   border-radius: 3px;
   -webkit-transition: 0.2s ease-in-out;
   transition: 0.2s ease-in-out;
@@ -1724,7 +1728,7 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
 }
 .menu_toggle .hamburger-cross span {
   display: block;
-  background: #5e2ced;
+  background: #98c11d;
   border-radius: 3px;
   -webkit-transition: 0.2s ease-in-out;
   transition: 0.2s ease-in-out;
@@ -1769,7 +1773,7 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
 
 .header_area_two + section,
 .header_area_three + section {
-  margin-top: 93px;
+  margin-top: 83px;
 }
 
 .h_dark {
@@ -1990,7 +1994,7 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
 }
 .header_area.navbar_fixed .menu_two .menu_toggle .hamburger-cross span,
 .header_area.navbar_fixed .menu_two .menu_toggle .hamburger span {
-  background: #051441;
+  background: #98c11d;
 }
 .header_area.navbar_fixed .menu_two .nav_right_btn .login_btn.active, .header_area.navbar_fixed .menu_two .nav_right_btn .login_btn:hover {
   box-shadow: none;
@@ -3835,13 +3839,20 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
   position: relative;
   z-index: 1;
   padding-top: 160px;
-  background-image: linear-gradient(40deg, #98c23d 0%, #8cbf3f 100%);
   overflow: hidden;
+  background-image: url(../img/texture.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  /* background: linear-gradient(-45deg, #98c11d, #98c23d, #8cbf3f);
+  background-size: 300% 300%;
+  animation: gradient 5s ease infinite; */
 }
 
 .n_banner_content {
   font-family: "Poppins", sans-serif;
-  padding-top: 60px;
+  padding-top: 40px;
   position: relative;
   z-index: 1;
 }
@@ -3889,7 +3900,7 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
 }
 .n_banner_btn:hover {
   background-position: right center;
-  color: #fff;
+  color: #98c11d;
 }
 
 .n_hero_banner_area .mobile_img {
@@ -7460,9 +7471,14 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
 
 /*================= action area three css =================*/
 .action_area_three {
-  background-image: -moz-linear-gradient(0deg, #98c23d 0%, #8cbf3f 100%);
+  background-image: url(../img/texture.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  /* background-image: -moz-linear-gradient(0deg, #98c23d 0%, #8cbf3f 100%);
   background-image: -webkit-linear-gradient(0deg, #98c23d 0%, #8cbf3f 100%);
-  background-image: -ms-linear-gradient(0deg, #98c23d 0%, #8cbf3f 100%);
+  background-image: -ms-linear-gradient(0deg, #98c23d 0%, #8cbf3f 100%); */
   position: relative;
   z-index: 1;
 }
@@ -7495,7 +7511,7 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
 }
 .action_area_three .action_content .about_btn:hover {
   box-shadow: none;
-  color: #5e2ced;
+  color: #98c11d;
   background: #fff;
 }
 .action_area_three .action_content .white_btn {
@@ -8047,7 +8063,7 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
 
 /*===== about_area css ======*/
 .onepage_about_area {
-  padding-top: 110px;
+  padding-top: 100px;
   position: relative;
   z-index: 1;
   overflow: hidden;
@@ -8157,12 +8173,12 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
 }
 
 .faq_accordian_two .card {
-  box-shadow: 0px 10px 30px 0px rgba(0, 0, 29, 0.08);
+  box-shadow: 0px 10px 30px 0px rgba(29, 29, 29, 0.08);
   background: #fff;
   border: 0px;
   margin-bottom: 20px;
-  border-radius: 0px;
-  padding: 0px 30px 25px;
+  border-radius: 8px;
+  padding: 0px 25px 20px;
   cursor: pointer;
   position: relative;
   z-index: 1;
@@ -8170,7 +8186,7 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
 
 .faq_accordian_two .card:before {
   content: "";
-  background-image: linear-gradient(90deg, #5e2ced 0%, #a485fd 100%);
+  background-image: linear-gradient(90deg, #98c23d 0%, #8cbf3f 100%);
   position: absolute;
   top: 0;
   left: 0;
@@ -8179,6 +8195,7 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
   z-index: -1;
   opacity: 0;
   transition: all 0.3s linear;
+    border-radius: 8px;
 }
 
 .faq_accordian_two .card .card-header {
@@ -8201,7 +8218,7 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
 }
 
 .faq_accordian_two .card .card-header h5 .btn-link i {
-  color: #5e2ced;
+  color: #98c11d;
   font-size: 30px;
   line-height: 26px;
   vertical-align: middle;
@@ -8210,7 +8227,7 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
 
 .faq_accordian_two .card .card-body {
   background: transparent;
-  padding: 10px 36px 0px 62px;
+  padding: 5px 10px 0px 57px;
 }
 
 .faq_accordian_two .card .card-body p {
@@ -8463,7 +8480,7 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
 }
 
 .partner_logo_area_four {
-  padding-top: 80px;
+  padding-top: 50px;
   margin-bottom: -40px;
 }
 .partner_logo_area_four h4 {
@@ -9225,7 +9242,8 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
 
 /*=========== sass_partner_logo_area css ==========*/
 .sass_partner_logo_area, .saas_map_area, .saas_subscribe_area {
-  background: #fbfcfe;
+  background: #fff;
+  font-family: "Poppins", sans-serif;
 }
 
 /*=========== saas_subscribe_area css ==========*/
@@ -9234,7 +9252,7 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
   margin: 0 auto;
   border-radius: 6px;
   background-color: white;
-  box-shadow: 0px 22px 95px 0px rgba(55, 168, 237, 0.1);
+  box-shadow: 0px 22px 95px 0px rgba(55, 55, 55, 0.1);
   display: flex;
   flex-wrap: wrap;
   padding: 60px;
@@ -9440,6 +9458,7 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
 .video_area {
   position: relative;
   z-index: 1;
+  font-family: "Poppins", sans-serif;
 }
 
 .video_content {
@@ -9465,7 +9484,7 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
   align-items: center;
   justify-content: center;
   border-radius: 4px;
-  background: linear-gradient(50deg, rgba(58, 43, 220, 0.9) 0%, rgba(23, 199, 189, 0.9) 100%), url("../img/new/video_bg.jpg") no-repeat;
+  background: linear-gradient(50deg, rgba(250, 250, 250, 0.1) 0%, rgba(200, 200, 200, 0.1) 100%), url("../img/new/video_bg.jpg") no-repeat;
   background-size: cover;
   box-shadow: 0px 50px 70px 0px rgba(0, 11, 40, 0.24);
   height: 450px;
@@ -9516,8 +9535,8 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
   transform: scale(3.8);
 }
 .video_icon i {
-  color: #17c7bd;
-  text-shadow: 0px 6px 25px rgba(16, 147, 140, 0.9);
+  color: #005baa;
+  text-shadow: 0px 6px 25px rgba(87, 87, 87, 0.9);
   position: relative;
 }
 .video_icon i:after {
@@ -9682,13 +9701,28 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
 /*================= app_screenshot_area css =============*/
 /*=============== get started area css ===============*/
 .get_started_area {
-  background-image: -moz-linear-gradient(140deg, #005baa 0%, #0e73a0 100%);
-  background-image: -webkit-linear-gradient(140deg, #005baa 0%, #0e73a0 100%);
-  background-image: -ms-linear-gradient(140deg, #005baa 0%, #0e73a0 100%);
-  padding: 120px 0px 80px;
+  background-image: url(../img/texture.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  /* background-image: -moz-linear-gradient(140deg, #98c11d 0%, #8cbf3f 100%);
+  background-image: -webkit-linear-gradient(140deg, #98c11d 0%, #8cbf3f 100%);
+  background-image: -ms-linear-gradient(140deg, #98c11d 0%, #8cbf3f 100%); */
+  padding: 80px 0px 60px;
   position: relative;
   overflow: hidden;
   z-index: 1;
+
+}
+.get_started_area_border:before {
+  content: "";
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  position: absolute;
+  background: url("../img/home2/action_bg.png") no-repeat scroll center 0;
 }
 .get_started_area .shap {
   opacity: 0.03;
@@ -9745,7 +9779,7 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
   color: #fff;
 }
 .get_content .app_btn.app_btn_two {
-  background: rgba(255, 255, 255, 0.1);
+  background: rgba(230, 230, 230, 0.3);
   vertical-align: middle;
   box-shadow: none;
   margin-left: 20px;
@@ -16414,16 +16448,16 @@ a .h_head:hover {
 }
 
 .er_btn_two {
-  background: #4e78f4;
-  border-color: #4e78f4;
+  background: #005baa;
+  border-color: #005baa;
   color: #fff;
   box-shadow: 0px 20px 30px 0px rgba(45, 93, 237, 0.1);
 }
 .er_btn_two:hover {
   box-shadow: none;
-  border-color: #c8d4fa;
+  border-color: #91B8DA;
   background: transparent;
-  color: #4e78f4;
+  color: #005baa;
 }
 
 .erp_customer_logo_area {
@@ -16552,7 +16586,7 @@ a .h_head:hover {
   content: "";
   width: 100%;
   height: 100%;
-  background: #1a1a3a;
+  background: #303030;
   opacity: 0.7;
   position: absolute;
   top: 0;
@@ -16600,9 +16634,9 @@ a .h_head:hover {
 }
 .pos_banner_text .software_banner_btn {
   border-radius: 6px;
-  background: #5f54fd;
+  background: #98c11d;
   padding: 14px 42px;
-  border: 1px solid #5f54fd;
+  border: 1px solid #98c11d;
   transition: all 0.2s linear;
 }
 .pos_banner_text .software_banner_btn:hover {
@@ -16897,7 +16931,7 @@ a .h_head:hover {
 }
 .pos_features_img .shape_img {
   width: 470px;
-  background: #e0faf4;
+  background: #E1EDBE;
   border-radius: 6px;
   height: 100%;
   position: absolute;
@@ -16912,7 +16946,7 @@ a .h_head:hover {
   background: #e5f6ff;
 }
 .pos_features_img .shap_img {
-  background: #99edd9;
+  background: #98c23d;
   border-radius: 6px;
   height: 420px;
   display: flex;
@@ -17033,8 +17067,8 @@ a .h_head:hover {
   border-radius: 6px;
   height: 100%;
   align-items: center;
-  padding: 77px 45px;
-  border-left: 6px solid #5f54fd;
+  padding: 40px 30px;
+  border-left: 6px solid #005baa;
 }
 .chat_info img {
   margin-right: 46px;
@@ -17042,7 +17076,7 @@ a .h_head:hover {
 .chat_info .date {
   font-size: 40px;
   font-weight: 700;
-  color: #5f54fd;
+  color: #005baa;
   padding-bottom: 32px;
 }
 .chat_info .date span {
@@ -17051,7 +17085,7 @@ a .h_head:hover {
 .chat_info h3 {
   font-size: 26px;
   line-height: 36px;
-  color: #2c2c51;
+  color: #404040;
   font-weight: 500;
 }
 .chat_info .pos_service_btn {
@@ -17061,7 +17095,7 @@ a .h_head:hover {
 .pos_service_btn {
   font-size: 16px;
   font-weight: 500;
-  color: #5f54fd;
+  color: #005baa;
   line-height: 18px;
   display: inline-block;
   position: relative;
@@ -17070,7 +17104,7 @@ a .h_head:hover {
   content: "";
   width: 0;
   height: 1px;
-  background: #5f54fd;
+  background: #2472B6;
   position: absolute;
   bottom: 0;
   left: 0;
@@ -17082,7 +17116,7 @@ a .h_head:hover {
   transition: all 0.2s linear;
 }
 .pos_service_btn:hover {
-  color: #5f54fd;
+  color: #2472B6;
 }
 .pos_service_btn:hover:before {
   width: 100%;
@@ -17093,18 +17127,18 @@ a .h_head:hover {
 
 .pos_btn {
   font-size: 16px;
-  color: #5f54fd;
+  color: #005baa;
   font-weight: 500;
   padding: 9px 24px;
-  border: 2px solid #aba6f9;
+  border: 2px solid #91B8DA;
   border-radius: 4px;
   display: inline-block;
   transition: all 0.3s linear;
 }
 .pos_btn:hover {
-  background: #5f54fd;
+  background: #005baa;
   color: #fff;
-  border-color: #5f54fd;
+  border-color: #005baa;
   box-shadow: 0px 10px 30px 0px rgba(95, 84, 253, 0.15);
 }
 
@@ -17117,12 +17151,12 @@ a .h_head:hover {
   border-radius: 20px;
   background-color: white;
   box-shadow: 0px 30px 80px 0px rgba(5, 1, 64, 0.1), 0px -4px 0px 0px rgba(95, 84, 253, 0.004);
-  border-top: 4px solid #5d52f9;
+  border-top: 4px solid #005baa;
   padding: 77px 20px;
 }
 .pos_action_area .pos_action_content h2 {
   font-size: 40px;
-  color: #2c2c51;
+  color: #404040;
   line-height: 44px;
   font-weight: 600;
   margin-bottom: 15px;
@@ -17131,13 +17165,13 @@ a .h_head:hover {
   font-size: 24px;
   line-height: 35px;
   font-weight: 400;
-  color: #7b7b93;
+  color: #707070;
   margin-bottom: 52px;
 }
 .pos_action_area .pos_action_content .pos_btn {
-  background: #5f54fd;
+  background: #005baa;
   color: #fff;
-  border-color: #5f54fd;
+  border-color: #005baa;
   padding: 7px 33px;
 }
 
@@ -19798,16 +19832,18 @@ a .h_head:hover {
 /*============= chat_features_area css ===========*/
 .chat_features_area {
   padding: 120px 0px;
+  font-family: "Poppins", sans-serif;
 }
 
 .chat_features_img {
-  background-image: -moz-linear-gradient(-140deg, #83e0f4 0%, #7094fe 100%);
-  background-image: -webkit-linear-gradient(-140deg, #83e0f4 0%, #7094fe 100%);
-  background-image: -ms-linear-gradient(-140deg, #83e0f4 0%, #7094fe 100%);
+  background-image: -moz-linear-gradient(-140deg, #98c11d 0%, #8cbf3f 100%);
+  background-image: -webkit-linear-gradient(-140deg, #98c11d 0%, #8cbf3f 100%);
+  background-image: -ms-linear-gradient(-140deg, #98c11d 0%, #8cbf3f 100%);
   width: 100%;
   height: 475px;
   position: relative;
   padding-left: 60px;
+  border-radius: 8px;
 }
 .chat_features_img .chat_features_img_bg_one {
   position: absolute;
@@ -19818,6 +19854,7 @@ a .h_head:hover {
 }
 .chat_features_img .chat_one, .chat_features_img .chat_two {
   box-shadow: 0px 5px 20px 0px rgba(12, 0, 46, 0.15);
+  border-radius: 8px;
 }
 .chat_features_img .chat_one {
   top: 0px;
@@ -19832,7 +19869,7 @@ a .h_head:hover {
   bottom: 40px;
 }
 .chat_features_content img {
-  margin-bottom: 28px;
+  margin-bottom: 20px;
 }
 .chat_features_content h2 {
   font-size: 36px;
@@ -19857,9 +19894,9 @@ a .h_head:hover {
 }
 
 .chat_features_img_two {
-  background-image: -moz-linear-gradient(-140deg, #f7b05c 0%, #f08260 100%);
-  background-image: -webkit-linear-gradient(-140deg, #f7b05c 0%, #f08260 100%);
-  background-image: -ms-linear-gradient(-140deg, #f7b05c 0%, #f08260 100%);
+  background-image: -moz-linear-gradient(-140deg, #98c11d 0%, #8cbf3f 100%);
+  background-image: -webkit-linear-gradient(-140deg, #98c11d 0%, #8cbf3f 100%);
+  background-image: -ms-linear-gradient(-140deg, #98c11d 0%, #8cbf3f 100%);
   margin-left: 30px;
 }
 .chat_features_img_two .chat_two {

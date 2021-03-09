@@ -1577,15 +1577,15 @@ a .h_head{
     }
 }
 .er_btn_two{
-    background: #9fbf1a;
-    border-color: #9fbf1a;
+    background: #4e78f4;
+    border-color: #4e78f4;
     color: #fff;
     box-shadow: 0px 20px 30px 0px rgba(45, 93, 237, 0.1);
     &:hover{
         box-shadow: none;
         border-color: #c8d4fa;
         background: transparent;
-        color: #9fbf1a;
+        color: #4e78f4;
     }
 }
 
@@ -1712,7 +1712,7 @@ a .h_head{
         content: "";
         width: 100%;
         height: 100%;
-        background: #9fbf1a;
+        background: #1a1a3a;
         opacity: 0.70;
         position: absolute;
         top: 0;
@@ -1759,9 +1759,9 @@ a .h_head{
     }
     .software_banner_btn{
         border-radius: 6px;
-        background: #9fbf1a;
+        background: #5f54fd;
         padding: 14px 42px;
-        border: 1px solid #98c11d;
+        border: 1px solid #5f54fd;
         transition: all 0.2s linear;
         &:hover{
             background: rgba(255, 255, 255, 0.1);
@@ -1988,12 +1988,12 @@ a .h_head{
             margin-bottom: 50px;
             .nav-item{
                 .nav-link{
-                    color: #9fbf1a;
+                    color: #2c2c51;
                     &:before{
-                        background: #98c11d;
+                        background: #5f54fd;
                     }
                     &.active{
-                        color: #98c11d;
+                        color: #5f54fd;
                     }
                 }
             }
@@ -2001,14 +2001,14 @@ a .h_head{
         h4{
             font-size: 30px;
             line-height: 40px;
-            color: #9fbf1a;
+            color: #2c2c51;
             font-weight: 600;
             margin-bottom: 32px;
         }
         p{
             font-size: 16px;
             line-height: 28px;
-            color: #9fbf1a;
+            color: #7b7b93;
             margin-bottom: 0;
         }
     } 
@@ -2165,13 +2165,13 @@ a .h_head{
         }
     }
     .btn_pos{
-        background: #9fbf1a;
+        background: #5f54fd;
         font-size: 16px;
         font-weight: 500;
         padding: 17px 37px;
         color: #fff;
         &:hover{
-            background: #9fbf1a;
+            background: #6b61fc;
             color: #fff;
         }
     }
@@ -2187,7 +2187,7 @@ a .h_head{
     padding-top: 40px;
     h2{
         font-size: 34px;
-        color: #9fbf1a;
+        color: #2c2c51;
         font-weight: 500;
         line-height: 44px;
     }
@@ -2208,7 +2208,7 @@ a .h_head{
     .date{
         font-size: 40px;
         font-weight: 700;
-        color: #9fbf1a;
+        color: #5f54fd;
         padding-bottom: 32px;
         span{
             font-weight: 400;
@@ -2217,7 +2217,7 @@ a .h_head{
     h3{
         font-size: 26px;
         line-height: 36px;
-        color: #9fbf1a;
+        color: #2c2c51;
         font-weight: 500;
     }
     .pos_service_btn{
@@ -2227,7 +2227,7 @@ a .h_head{
 .pos_service_btn{
     font-size: 16px;
     font-weight: 500;
-    color: #9fbf1a;
+    color: #5f54fd;
     line-height: 18px;
     display: inline-block;
     position: relative;
@@ -2235,7 +2235,7 @@ a .h_head{
         content: "";
         width: 0;
         height: 1px;
-        background: #9fbf1a;
+        background: #5f54fd;
         position: absolute;
         bottom: 0;
         left: 0;
@@ -2247,7 +2247,7 @@ a .h_head{
         transition: all 0.2s linear;
     }
     &:hover{
-        color: #9fbf1a;
+        color: #5f54fd;
         &:before{
             width: 100%;
         }
@@ -2258,17 +2258,17 @@ a .h_head{
 }
 .pos_btn{
     font-size: 16px;
-    color: #9fbf1a;
+    color: #5f54fd;
     font-weight: 500;
     padding: 9px 24px;
-    border: 2px solid #9fbf1a;
+    border: 2px solid #aba6f9;
     border-radius: 4px;
     display: inline-block;
     transition: all 0.3s linear;
     &:hover{
-        background: #9fbf1a;
+        background: #5f54fd;
         color: #fff;
-        border-color: #9fbf1a;
+        border-color: #5f54fd;
         box-shadow: 0px 10px 30px 0px rgba(95, 84, 253, 0.15);
     }
 }
@@ -2280,7 +2280,7 @@ a .h_head{
         border-radius: 20px;
         background-color: rgb(255, 255, 255);
         box-shadow: 0px 30px 80px 0px rgba(5, 1, 64, 0.1),0px -4px 0px 0px rgba(95, 84, 253, 0.004);
-        border-top: 4px solid #9fbf1a;
+        border-top: 4px solid #5d52f9;
         padding: 77px 20px;
         h2{
             font-size: 40px;
@@ -2297,9 +2297,9 @@ a .h_head{
             margin-bottom: 52px;
         }
         .pos_btn{
-            background: #9fbf1a;
+            background: #5f54fd;
             color: #fff;
-            border-color: #9fbf1a;
+            border-color: #5f54fd;
             padding: 7px 33px;
         }
     }
@@ -2358,11 +2358,11 @@ a .h_head{
         h4{
             font-size: 24px;
             font-weight: 500;
-            color: #9fbf1a;
+            color: #051441;
             margin: 36px 0px 25px;
         }
         .software_banner_btn{
-            background-color:#9fbf1a;
+            background-color: rgb(103, 84, 226);
             box-shadow: 0px 20px 30px 0px rgba(12, 0, 46, 0.1);
             &:hover{
                 box-shadow: none;
@@ -2497,7 +2497,7 @@ a .h_head{
     }
     .btn-submit{
         border-radius: 50%;
-        background: #9fbf1a;
+        background: #6754e2;
         width: 70px;
         height: 70px;
         font-size: 20px;
