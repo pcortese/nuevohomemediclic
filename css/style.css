@@ -390,6 +390,10 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
   padding-top: 80px!important;
 }
 
+.pb-80 {
+  padding-bottom: 80px;
+}
+
 /*====================================================*/
 /*====================================================*/
 .btn_hover {
@@ -464,18 +468,18 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
 .btn_three {
   font: 500 14px "Poppins", sans-serif;
   color: #fff;
-  background: #005baa;
+  background: #98c11d;
   border-radius: 3px;
   padding: 15px 30px;
-  border: 1px solid #005baa;
+  border: 1px solid #98c11d;
   margin-top: 50px;
   transition: all 0.3s linear;
   cursor: pointer;
   display: inline-block;
 }
 .btn_three:hover {
-  color: #005baa;
-  background: rgba(255,255,255,0.5);
+  color: #98c11d;
+  background: rgba(255,255,255,0.6);
 }
 
 .agency_banner_btn {
@@ -5280,7 +5284,6 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
 }
 .payment_features_item h4 {
   font: 600 20px/26px "Poppins", sans-serif;
-  color: #051441;
   margin-bottom: 22px;
 }
 .payment_features_item p {
@@ -8169,7 +8172,7 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
 }
 
 .faq_solution_area .title-four {
-  margin-bottom: 50px;
+  margin-bottom: 70px;
 }
 
 .faq_accordian_two .card {
@@ -16448,14 +16451,14 @@ a .h_head:hover {
 }
 
 .er_btn_two {
-  background: #005baa;
-  border-color: #005baa;
+  background: #98c11d;
+  border-color: #98c11d;
   color: #fff;
   box-shadow: 0px 20px 30px 0px rgba(45, 93, 237, 0.1);
 }
 .er_btn_two:hover {
   box-shadow: none;
-  border-color: #91B8DA;
+  border-color: #C4DB7D;
   background: transparent;
   color: #005baa;
 }
@@ -16566,8 +16569,8 @@ a .h_head:hover {
 
 /*============= pos_banner_area css ===========*/
 .pos_banner_area {
-  height: 100vh;
-  min-height: 650px;
+  height: 60vh;
+  min-height: 500px; /*650px original*/
   display: flex;
   align-items: center;
   position: relative;
@@ -16946,7 +16949,7 @@ a .h_head:hover {
   background: #e5f6ff;
 }
 .pos_features_img .shap_img {
-  background: #98c23d;
+  background: #98c11d;
   border-radius: 6px;
   height: 420px;
   display: flex;
@@ -17068,7 +17071,7 @@ a .h_head:hover {
   height: 100%;
   align-items: center;
   padding: 40px 30px;
-  border-left: 6px solid #005baa;
+  border-left: 6px solid #98c11d;
 }
 .chat_info img {
   margin-right: 46px;
@@ -17076,7 +17079,7 @@ a .h_head:hover {
 .chat_info .date {
   font-size: 40px;
   font-weight: 700;
-  color: #005baa;
+  color: #98c11d;
   padding-bottom: 32px;
 }
 .chat_info .date span {
@@ -17095,7 +17098,7 @@ a .h_head:hover {
 .pos_service_btn {
   font-size: 16px;
   font-weight: 500;
-  color: #005baa;
+  color: #98c11d;
   line-height: 18px;
   display: inline-block;
   position: relative;
@@ -17104,7 +17107,7 @@ a .h_head:hover {
   content: "";
   width: 0;
   height: 1px;
-  background: #2472B6;
+  background: #82A518;
   position: absolute;
   bottom: 0;
   left: 0;
@@ -17116,7 +17119,7 @@ a .h_head:hover {
   transition: all 0.2s linear;
 }
 .pos_service_btn:hover {
-  color: #2472B6;
+  color: #82A518;
 }
 .pos_service_btn:hover:before {
   width: 100%;
@@ -17127,18 +17130,18 @@ a .h_head:hover {
 
 .pos_btn {
   font-size: 16px;
-  color: #005baa;
+  color: #98c11d;
   font-weight: 500;
   padding: 9px 24px;
-  border: 2px solid #91B8DA;
+  border: 2px solid #C4DB7D;
   border-radius: 4px;
   display: inline-block;
   transition: all 0.3s linear;
 }
 .pos_btn:hover {
-  background: #005baa;
+  background: #98c11d;
   color: #fff;
-  border-color: #005baa;
+  border-color: #98c11d;
   box-shadow: 0px 10px 30px 0px rgba(95, 84, 253, 0.15);
 }
 
@@ -17151,7 +17154,7 @@ a .h_head:hover {
   border-radius: 20px;
   background-color: white;
   box-shadow: 0px 30px 80px 0px rgba(5, 1, 64, 0.1), 0px -4px 0px 0px rgba(95, 84, 253, 0.004);
-  border-top: 4px solid #005baa;
+  border-top: 4px solid #98c11d;
   padding: 77px 20px;
 }
 .pos_action_area .pos_action_content h2 {
@@ -17169,9 +17172,9 @@ a .h_head:hover {
   margin-bottom: 52px;
 }
 .pos_action_area .pos_action_content .pos_btn {
-  background: #005baa;
+  background: #98c11d;
   color: #fff;
-  border-color: #005baa;
+  border-color: #98c11d;
   padding: 7px 33px;
 }
 
@@ -18380,7 +18383,7 @@ a .h_head:hover {
 /*============ easy_setup_area css ============*/
 /*============ analytices_customers_logo_area css ============*/
 .analytices_customers_logo_area {
-  padding: 200px 0px 120px;
+  padding: 110px 0px 120px;
 }
 
 .analytices_logo {
@@ -18403,7 +18406,7 @@ a .h_head:hover {
   margin-bottom: 0;
 }
 .analytices_logo_content .er_btn {
-  margin-top: 40px;
+  margin-top: 30px;
 }
 
 /*============ analytices_customers_logo_area css ============*/
@@ -19897,10 +19900,9 @@ a .h_head:hover {
   background-image: -moz-linear-gradient(-140deg, #98c11d 0%, #8cbf3f 100%);
   background-image: -webkit-linear-gradient(-140deg, #98c11d 0%, #8cbf3f 100%);
   background-image: -ms-linear-gradient(-140deg, #98c11d 0%, #8cbf3f 100%);
-  margin-left: 30px;
 }
 .chat_features_img_two .chat_two {
-  bottom: 50px;
+  bottom: 40px;
   left: -30px;
 }
 .chat_features_img_two .chat_one {

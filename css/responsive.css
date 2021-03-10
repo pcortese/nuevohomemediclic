@@ -2546,7 +2546,8 @@
         min-height: 690px;
     }
     .payment_features_item{
-        margin-bottom: 30px;
+        margin-bottom: 20px;
+        padding: 30px 15px;
     }
     .feedback_area_two .sec_title,.feedback_area_three .sec_title{
         padding-right: 156px;
@@ -2845,7 +2846,7 @@
         margin-bottom: 30px;
     }
     .analytices_customers_logo_area {
-        padding: 70px 0px 70px;
+        padding: 80px 0px 90px;
     }
     .analytices_logo_content .analytices_title p{
         max-width: 100%;
@@ -5342,7 +5343,7 @@
         left: auto
     }
     .chat_features_img_two .chat_two{
-        left: 0;
+        left: 10%;
     }
     .chat_features_img_two .chat_one{
         left: -30px;
