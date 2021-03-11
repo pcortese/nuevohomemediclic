@@ -1,5 +1,5 @@
 .collab_background-img {
-  background-image: url(../img/pos/prueba1.jpg);
+  background-image: url(../img/pos/banner-web.jpg);
   background-position: top;
   background-size: cover;
   background-repeat: no-repeat;
@@ -97,17 +97,75 @@
 
 .payment_features_item:hover {
   background: #98c11d;
-  color: #fff!important;
-    transition: all 0.3s linear;
+  transition: all 0.3s linear;
 }
-.payment_features_item > :hover {
+.payment_features_item:hover > * {
   color: #fff!important;
     transition: all 0.3s linear;
 }
 
 @media (max-width:576px){
-.payment_features_item h4 {
-  font-size: 18px;
+  .payment_features_item h4 {
+    font-size: 18px;
+  }
 }
 
+@media (max-width:991.98px){
+  .action_img {
+    position: relative;}
 }
+
+
+ .f_size_11 {
+   font-size: 11px;
+ }
+
+ .elemator_inner_item {
+   border-radius: 4px;
+   background-color: white;
+   box-shadow: 0px 20px 60px 0px rgba(0, 11, 40, 0.06);
+   padding: 10px 25px;
+ }
+ .elemator_inner_item p {
+   font-size: 14px;
+   line-height: 140%;
+   font-weight: 400;
+   margin-bottom: 0;
+   color: #707070;
+ }
+ .elemator_inner_item:hover {
+   box-shadow: 0px 15px 50px 0px rgba(0, 11, 40, 0.2);
+    transition: all 0.3s linear;
+ }
+ .elemetor_img-icon {
+   max-width: 40px;
+   padding-bottom: 10px;
+ }
+
+ @media (max-width:650px) {
+   .elemator_inner_item-mob {
+     border-radius: 4px;
+     background-color: white;
+     box-shadow: 0px 20px 60px 0px rgba(0, 11, 40, 0.06);
+     padding: 10px 25px;
+   }
+   .elemator_inner_item-mob p {
+     font-size: 14px;
+     line-height: 140%;
+     font-weight: 400;
+     margin-bottom: 0;
+     color: #707070;
+   }
+   .elemator_inner_item-mob:hover {
+     box-shadow: 0px 15px 50px 0px rgba(0, 11, 40, 0.2);
+      transition: all 0.3s linear;
+   }
+ }
+ @media (min-width:650.2px) {
+   .elemator_inner-mobile {
+     display: none;
+   }
+   .elemator_inner_item-mob {
+     display: none;
+   }
+ }

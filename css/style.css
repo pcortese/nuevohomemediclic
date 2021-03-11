@@ -479,7 +479,7 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
 }
 .btn_three:hover {
   color: #98c11d;
-  background: rgba(255,255,255,0.6);
+  background: rgba(255,255,255,1);
 }
 
 .agency_banner_btn {
@@ -5280,7 +5280,7 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
   border-radius: 4px;
   background-color: white;
   box-shadow: 0px 20px 60px 0px rgba(0, 11, 40, 0.06);
-  padding: 50px 40px;
+  padding: 35px 20px;
 }
 .payment_features_item h4 {
   font: 600 20px/26px "Poppins", sans-serif;
@@ -7450,7 +7450,7 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
 /*============= action_area_two css =============*/
 .action_area_two {
   background: #f6f6fa;
-  padding-bottom: 40px;
+  /* padding-bottom: 40px; */
 }
 
 .action_content {
@@ -7467,6 +7467,10 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
 .action_img {
   margin-right: -160px;
   margin-top: -50px;
+  /* Personalizado */
+  position: absolute;
+  bottom: 0;
+
 }
 .action_img img {
   max-width: 100%;
@@ -8070,6 +8074,7 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
   position: relative;
   z-index: 1;
   overflow: hidden;
+  padding-bottom: 50px;
 }
 .onepage_about_area .shape {
   position: absolute;
@@ -16460,7 +16465,7 @@ a .h_head:hover {
   box-shadow: none;
   border-color: #C4DB7D;
   background: transparent;
-  color: #005baa;
+  color: #98c11d;
 }
 
 .erp_customer_logo_area {
@@ -17066,7 +17071,7 @@ a .h_head:hover {
 }
 
 .chat_info {
-  background: #fafaff;
+  background: #fafafa;
   border-radius: 6px;
   height: 100%;
   align-items: center;
@@ -17152,14 +17157,14 @@ a .h_head:hover {
 }
 .pos_action_area .pos_action_content {
   border-radius: 20px;
-  background-color: white;
+  background-color: #98c11d;
   box-shadow: 0px 30px 80px 0px rgba(5, 1, 64, 0.1), 0px -4px 0px 0px rgba(95, 84, 253, 0.004);
-  border-top: 4px solid #98c11d;
+  border-top: 4px solid #e9ecf3;
   padding: 77px 20px;
 }
 .pos_action_area .pos_action_content h2 {
   font-size: 40px;
-  color: #404040;
+  color: #fff;
   line-height: 44px;
   font-weight: 600;
   margin-bottom: 15px;
@@ -17168,13 +17173,13 @@ a .h_head:hover {
   font-size: 24px;
   line-height: 35px;
   font-weight: 400;
-  color: #707070;
+  color: #fff;
   margin-bottom: 52px;
 }
 .pos_action_area .pos_action_content .pos_btn {
-  background: #98c11d;
-  color: #fff;
-  border-color: #98c11d;
+  background: #fff;
+  color: #98c11d;
+  border-color: #fff;
   padding: 7px 33px;
 }
 
@@ -20384,8 +20389,12 @@ a .h_head:hover {
 }
 
 .elemator_area {
-  background: #f9fafe;
+  /* background: #f9fafe; */
   text-align: center;
+  /* Personalizado */
+  background-image: url(../img/background2.jpg);
+  background-size: cover;
+  background-position: center;
 }
 
 .elemator_inner {
@@ -20397,9 +20406,9 @@ a .h_head:hover {
   z-index: 1;
 }
 .elemetor_img img {
-  border-radius: 4px;
-  background-color: white;
-  box-shadow: 0px 20px 50px 0px rgba(1, 1, 64, 0.08);
+  /* border-radius: 4px; */
+  /* background-color: white; */
+  /* box-shadow: 0px 20px 50px 0px rgba(1, 1, 64, 0.08); */
   z-index: 1;
 }
 .elemetor_img.one {
@@ -20444,7 +20453,7 @@ a .h_head:hover {
 }
 .elemetor_img.eleven {
   bottom: 109px;
-  right: 95px;
+  right: 75px;
 }
 .elemetor_img.r_one {
   right: 132px;
@@ -21721,7 +21730,7 @@ a .h_head:hover {
   transition: color 0.2s linear;
 }
 .footer_bottom .f_menu li a:hover {
-  color: #6754e2;
+  color: #98c11d;
 }
 .footer_bottom .f_menu li + li {
   margin-left: 16px;
@@ -21869,19 +21878,19 @@ a .h_head:hover {
   padding: 120px 0px 70px;
 }
 .footer_area_four .footer_top .f_widget.about-widget .f_list li a:hover {
-  color: #5e2ced;
+  color: #98c11d;
 }
 .footer_area_four .footer_top .f_widget.about-widget .f_list li a:hover:before {
-  background: #5e2ced;
+  background: #98c11d;
 }
 .footer_area_four .footer_top .f_widget .widget-wrap p a:hover {
-  color: #5e2ced;
+  color: #98c11d;
 }
 .footer_area_four .footer_bottom p a {
-  color: #5e2ced;
+  color: #98c11d;
 }
 .footer_area_four .footer_bottom a:hover {
-  color: #5e2ced;
+  color: #98c11d;
 }
 
 /*======= footer_area_five css ========*/

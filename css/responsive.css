@@ -104,7 +104,8 @@
          margin-left: -20px;
     }
     .action_img {
-        margin-right: 0;
+        margin-right: -60px;
+        margin-left: -30px;
     }
     .service_carousel {
         padding-left: 70px;
@@ -672,7 +673,7 @@
         padding-right: 0px;
     }
     .action_area_two {
-        padding-bottom: 40px;
+        /* padding-bottom: 40px; */
         padding-top: 20px;
     }
     .agency_featured_item .agency_featured_content{
@@ -1730,6 +1731,8 @@
     }
     .action_img{
         margin-top: 0;
+        margin-right: 0;
+        margin-left: 0;
     }
     .p_service_info {
         margin-bottom: -40px;
