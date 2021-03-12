@@ -1,5 +1,5 @@
 .collab_background-img {
-  background-image: url(../img/pos/banner-web.jpg);
+  background-image: url(../img/pos/prueba1.jpg);
   background-position: top;
   background-size: cover;
   background-repeat: no-repeat;
@@ -104,6 +104,23 @@
     transition: all 0.3s linear;
 }
 
+.app_btn-green {
+  box-shadow: 0px 20px 30px 0px rgba(90, 90, 90, 0.1);
+  background-color: #B2D058;
+  display: inline-block;
+  padding: 14px 40px;
+  color: #fff;
+  border-radius: 45px;
+  border: 1px solid #98c11d;
+}
+.app_btn-green:hover {
+  box-shadow: 0px 20px 25px 0px rgba(90, 90, 90, 0.2)!important;
+  color: #fff;
+  background: #98c11d;
+  box-shadow: none;
+  transition: all 0.2s linear;
+}
+
 @media (max-width:576px){
   .payment_features_item h4 {
     font-size: 18px;
@@ -143,20 +160,20 @@
  }
 
  @media (max-width:650px) {
-   .elemator_inner_item-mob {
+   .elemator_inner_item {
      border-radius: 4px;
      background-color: white;
      box-shadow: 0px 20px 60px 0px rgba(0, 11, 40, 0.06);
      padding: 10px 25px;
    }
-   .elemator_inner_item-mob p {
-     font-size: 14px;
+   .elemator_inner_item p {
+     font-size: 12px;
      line-height: 140%;
      font-weight: 400;
      margin-bottom: 0;
      color: #707070;
    }
-   .elemator_inner_item-mob:hover {
+   .elemator_inner_item:hover {
      box-shadow: 0px 15px 50px 0px rgba(0, 11, 40, 0.2);
       transition: all 0.3s linear;
    }

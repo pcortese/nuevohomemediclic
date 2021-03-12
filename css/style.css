@@ -16459,7 +16459,7 @@ a .h_head:hover {
   background: #98c11d;
   border-color: #98c11d;
   color: #fff;
-  box-shadow: 0px 20px 30px 0px rgba(45, 93, 237, 0.1);
+  box-shadow: 0px 20px 30px 0px rgba(152, 193, 29, 0.1);
 }
 .er_btn_two:hover {
   box-shadow: none;
@@ -20416,8 +20416,8 @@ a .h_head:hover {
   top: 65px;
 }
 .elemetor_img.two {
-  left: 315px;
-  top: 135px;
+  left: 280px;
+  top: 345px;
 }
 .elemetor_img.three {
   left: 235px;
