@@ -42,12 +42,12 @@ Table of Content:
 =====================================================================*/
 /*====================================================*/
 /*=== fonts ====*/
-@import url("https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,900");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap");
 /*===== color =====*/
 /*====================================================*/
 /*====================================================*/
 * {
-  font-family: "Poppins", sans-serif;
+  font-family: 'Open Sans', sans-serif;
 }
 
 a {
@@ -70,7 +70,7 @@ i:before {
 }
 
 body {
-  font: 400 15px/28px "Poppins", sans-serif;
+  font: 400 15px/28px 'Open Sans', sans-serif;
   letter-spacing: 0px;
   color: #606060;
   padding: 0px;
@@ -194,7 +194,7 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
 }
 
 .f_p {
-  font-family: "Poppins", sans-serif;
+  font-family: 'Open Sans', sans-serif;
 }
 
 /*=========== font-weight ==============*/
@@ -207,7 +207,7 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
 }
 
 .f_500 {
-  font-weight: 500;
+  font-weight: 600;
 }
 
 .f_600 {
@@ -216,6 +216,10 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
 
 .f_700 {
   font-weight: 700;
+}
+
+.f_800 {
+  font-weight: 800;
 }
 
 .f_900 {
@@ -399,9 +403,9 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
 .btn_hover {
   overflow: hidden;
   display: inline-block;
-  font-weight: 500;
+  font-weight: 600;
   font-size: 14px;
-  font-family: "Poppins", sans-serif;
+  font-family: 'Open Sans', sans-serif;
   z-index: 1;
   cursor: pointer;
   transition: all 0.3s linear;
@@ -411,7 +415,7 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
 }
 
 .btn_get {
-  font: 500 14px/40px "Poppins", sans-serif;
+  font: 600 14px/40px 'Open Sans', sans-serif;
   color: #6754e2;
   border: 2px solid #87AC19;
   border-radius: 4px;
@@ -442,7 +446,7 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
 }
 
 .price_btn {
-  font: 500 15px/53px "Poppins", sans-serif;
+  font: 600 15px/53px 'Open Sans', sans-serif;
   color: #6754e2;
   border-width: 1px;
   border-style: solid;
@@ -456,7 +460,7 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
 }
 
 .slider_btn {
-  font: 500 14px/20px "Poppins", sans-serif;
+  font: 600 14px/20px 'Open Sans', sans-serif;
   border-radius: 45px;
   padding: 15px 35px;
   background: #fff;
@@ -466,7 +470,7 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
 }
 
 .btn_three {
-  font: 500 14px "Poppins", sans-serif;
+  font: 600 14px 'Open Sans', sans-serif;
   color: #fff;
   background: #98c11d;
   border-radius: 3px;
@@ -483,7 +487,7 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
 }
 
 .agency_banner_btn {
-  font: 500 14px "Poppins", sans-serif;
+  font: 600 14px 'Open Sans', sans-serif;
   color: #fff;
   background: #5e2ced;
   box-shadow: 0px 20px 30px 0px rgba(12, 0, 46, 0.1);
@@ -500,7 +504,7 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
 }
 
 .agency_banner_btn_two {
-  font: 500 14px "Poppins", sans-serif;
+  font: 600 14px 'Open Sans', sans-serif;
   color: #222d39;
   position: relative;
   margin-left: 50px;
@@ -524,7 +528,7 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
 }
 
 .software_banner_btn {
-  font: 500 14px "Poppins", sans-serif;
+  font: 600 14px 'Open Sans', sans-serif;
   color: #fff;
   background: #3d64f4;
   box-shadow: 0px 20px 30px 0px rgba(12, 0, 46, 0.1);
@@ -540,7 +544,7 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
 }
 
 .video_btn {
-  font: 500 14px "Poppins", sans-serif;
+  font: 600 14px 'Open Sans', sans-serif;
   color: #fff;
   margin-left: 30px;
 }
@@ -575,7 +579,7 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
 }
 
 .btn_four {
-  font: 500 14px "Poppins", sans-serif;
+  font: 600 14px 'Open Sans', sans-serif;
   padding: 16px 40px;
   border-radius: 45px;
   color: #fff;
@@ -626,7 +630,7 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
 }
 
 .gr_btn {
-  font: 500 14px "Poppins", sans-serif;
+  font: 600 14px 'Open Sans', sans-serif;
   color: #23b1fe;
   display: inline-block;
   padding: 15px 31px;
@@ -715,8 +719,8 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
   background: #5e2ced;
   color: #fff;
   font-size: 16px;
-  font-family: "Poppins", sans-serif;
-  font-weight: 500;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
   transition: 0.5s;
   box-shadow: 0px 20px 50px 0px rgba(123, 78, 245, 0.3);
 }
@@ -753,7 +757,7 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
   width: 9em;
 }
 .ctn-preloader .animation-preloader .txt-loading {
-  font: bold 5em "Poppins", sans-serif;
+  font: bold 5em 'Open Sans', sans-serif;
   text-align: center;
   user-select: none;
 }
@@ -767,7 +771,7 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
   content: attr(data-text-preloader);
   left: 0;
   opacity: 0;
-  font-family: "Poppins", sans-serif;
+  font-family: 'Open Sans', sans-serif;
   position: absolute;
   top: -3px;
   transform: rotateY(-90deg);
@@ -805,7 +809,7 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
 }
 .ctn-preloader p {
   font-size: 14px;
-  font-weight: 500;
+  font-weight: 600;
   text-transform: uppercase;
   letter-spacing: 8px;
   color: #3b3b3b;
@@ -867,7 +871,7 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
   }
 
   .ctn-preloader .animation-preloader .txt-loading {
-    font: bold 3.5em "Poppins", sans-serif;
+    font: bold 3.5em 'Open Sans', sans-serif;
   }
 }
 @media screen and (max-width: 500px) {
@@ -877,7 +881,7 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
   }
 
   .ctn-preloader .animation-preloader .txt-loading {
-    font: bold 2em "Poppins", sans-serif;
+    font: bold 2em 'Open Sans', sans-serif;
   }
 }
 /*====================================================*/
@@ -915,7 +919,7 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
   padding-top: 30px;
 }
 .menu > .nav-item > .nav-link {
-  font: 500 15px "Poppins", sans-serif;
+  font: 600 15px 'Open Sans', sans-serif;
   color: #051441;
   padding: 0px;
   transition: color 0.3s ease 0s;
@@ -965,7 +969,7 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
 .menu > .nav-item.submenu .dropdown-menu .nav-item .nav-link {
   padding: 0px;
   white-space: nowrap;
-  font: 400 14px/34px "Poppins", sans-serif;
+  font: 400 14px/34px 'Open Sans', sans-serif;
   color: #051441;
   transition: color 0.2s linear;
 }
@@ -1032,7 +1036,7 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
   max-width: 30px;
 }
 .menu > .nav-item.submenu .dropdown-menu.mega_menu_three > .nav-item > .dropdown-menu .nav-item .nav-link .navdropdown_link .navdropdown_content h5 {
-  font: 500 16px "Poppins", sans-serif;
+  font: 600 16px 'Open Sans', sans-serif;
   color: #13112d;
   margin-bottom: 0px;
 }
@@ -1109,7 +1113,7 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
   width: 25%;
 }
 .menu > .nav-item.submenu.mega_menu .mega_menu_inner > .dropdown-menu > .nav-item > .nav-link {
-  font: 500 18px "Poppins", sans-serif;
+  font: 600 18px 'Open Sans', sans-serif;
   color: #13112d;
 }
 .menu > .nav-item.submenu.mega_menu .mega_menu_inner > .dropdown-menu > .nav-item .dropdown-menu {
@@ -1177,7 +1181,7 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
   text-align: center;
 }
 .menu > .nav-item.submenu.mega_menu.mega_menu_two .mega_menu_inner .dropdown-menu .nav-item .item .rebon_tap {
-  font: 500 12px "Poppins", sans-serif;
+  font: 600 12px 'Open Sans', sans-serif;
   color: #fff;
   background: red;
   display: block;
@@ -1214,7 +1218,7 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
   box-shadow: none;
 }
 .menu > .nav-item.submenu.mega_menu.mega_menu_two .mega_menu_inner .dropdown-menu .nav-item .item .text {
-  font: 500 16px/22px "Poppins", sans-serif;
+  font: 600 16px/22px 'Open Sans', sans-serif;
   color: #13112d;
   display: block;
   margin-top: 20px;
@@ -1370,16 +1374,16 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
 }
 .navbar .search_cart .shpping-cart .dropdown-menu .cart-single-item .cart-content .cart-title {
   font-size: 15px;
-  font-weight: 500;
+  font-weight: 600;
   line-height: 22px;
-  font-family: "Poppins", sans-serif;
+  font-family: 'Open Sans', sans-serif;
   margin-bottom: 10px;
   transition: color 0.3s linear;
 }
 .navbar .search_cart .shpping-cart .dropdown-menu .cart-single-item .cart-content p {
   font-size: 14px;
   line-height: 22px;
-  font-family: "Poppins", sans-serif;
+  font-family: 'Open Sans', sans-serif;
   color: #333;
   font-weight: 300;
   margin-bottom: 0px;
@@ -1417,7 +1421,7 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
   float: right;
   font-size: 20px;
   color: #333333;
-  font-weight: 500;
+  font-weight: 600;
 }
 .navbar .search_cart .shpping-cart .dropdown-menu .cart_f .cart-button .get_btn {
   font-size: 14px;
@@ -1477,7 +1481,7 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
 }
 
 .nav_right_btn .login_btn {
-  font: 500 15px "Poppins", sans-serif;
+  font: 600 15px 'Open Sans', sans-serif;
   padding: 13px 32px;
   min-width: 120px;
   display: inline-block;
@@ -1777,7 +1781,7 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
 
 .header_area_two + section,
 .header_area_three + section {
-  margin-top: 83px;
+  margin-top: 80px;
 }
 
 .h_dark {
@@ -1827,7 +1831,7 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
 .header_contact_info li {
   display: inline-block;
   font-size: 14px;
-  font-family: "Poppins", sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-weight: 400;
   color: #fff;
   text-transform: capitalize;
@@ -1928,7 +1932,7 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
 }
 .header_area_seven .header_top .header_top_menu li a {
   font-size: 12px;
-  font-family: "Poppins", sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-weight: 300;
   color: #fff;
   transition: opacity 0.2s linear;
@@ -2295,7 +2299,7 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
   display: inline-block;
   color: #fff;
   font-weight: 700;
-  font-family: "Poppins", sans-serif;
+  font-family: 'Open Sans', sans-serif;
   transform: translateY(45px);
   opacity: 0;
   visibility: hidden;
@@ -2513,7 +2517,7 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
 }
 .side_menu_wrapper .side_menu .m_content a {
   font-size: 2.5vh;
-  font-weight: 500;
+  font-weight: 600;
 }
 .side_menu_wrapper .side_menu .m_content p {
   font-size: 1.9vh;
@@ -2669,7 +2673,7 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
   border-radius: 4px;
   background-color: white;
   box-shadow: 0px 30px 30px 0px rgba(0, 11, 40, 0.1);
-  font: 400 15px/46px "Poppins", sans-serif;
+  font: 400 15px/46px 'Open Sans', sans-serif;
   padding-left: 30px;
   color: #051441;
   z-index: 0;
@@ -2803,7 +2807,7 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
   color: #222d39;
   padding-left: 30px;
   box-shadow: 0px 2px 3px 0px rgba(12, 0, 46, 0.06);
-  font: 300 14px/28px "Poppins", sans-serif;
+  font: 300 14px/28px 'Open Sans', sans-serif;
   border: 1px solid transparent;
 }
 .prototype_content .banner_subscribe .subcribes .form-control.placeholder {
@@ -3058,7 +3062,7 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
   border-radius: 4px;
   background-color: white;
   box-shadow: 0px 8px 16px 0px rgba(0, 11, 40, 0.1);
-  font: 300 16px/36px "Poppins", sans-serif;
+  font: 300 16px/36px 'Open Sans', sans-serif;
   border: 0px;
   color: #a1a8be;
   height: 60px;
@@ -3082,7 +3086,7 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
   position: absolute;
   top: 0;
   right: 0;
-  font: 400 14px/60px "Poppins", sans-serif;
+  font: 400 14px/60px 'Open Sans', sans-serif;
   color: #fff;
   background: #1c7ce7;
   border-radius: 4px;
@@ -3212,7 +3216,7 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
 }
 .payment_content_two h2 {
   font-size: 50px;
-  font-family: "Poppins", sans-serif;
+  font-family: 'Open Sans', sans-serif;
   line-height: 66px;
   color: #fff;
   font-weight: 400;
@@ -3377,7 +3381,7 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
 }
 
 .new_startup_content h2 {
-  font: 300 50px "Poppins", sans-serif;
+  font: 300 50px 'Open Sans', sans-serif;
   line-height: 58px;
 }
 .new_startup_content h2 span {
@@ -3855,7 +3859,7 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
 }
 
 .n_banner_content {
-  font-family: "Poppins", sans-serif;
+  font-family: 'Open Sans', sans-serif;
   padding-top: 40px;
   position: relative;
   z-index: 1;
@@ -3863,7 +3867,7 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
 .n_banner_content h2 {
   font-size: 50px;
   line-height: 66px;
-  font-weight: 500;
+  font-weight: 600;
   color: #fff;
 }
 .n_banner_content p {
@@ -3875,7 +3879,7 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
 }
 .n_banner_content .n_banner_btn {
   font-size: 14px;
-  font-family: "Poppins", sans-serif;
+  font-family: 'Open Sans', sans-serif;
   border-radius: 3px;
   box-shadow: 0px 20px 30px 0px rgba(0, 0, 29, 0.14);
   background: #fff;
@@ -3891,7 +3895,7 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
 
 .n_banner_btn {
   font-size: 14px;
-  font-family: "Poppins", sans-serif;
+  font-family: 'Open Sans', sans-serif;
   border-radius: 3px;
   box-shadow: 0px 20px 30px 0px rgba(0, 0, 29, 0.14) !important;
   background-image: linear-gradient(90deg, #a485fd 0%, #5e2ced 100%);
@@ -4350,7 +4354,7 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
 }
 
 .learn_btn {
-  font: 500 16px/25px "Poppins", sans-serif;
+  font: 600 16px/25px 'Open Sans', sans-serif;
   color: #051441;
   vertical-align: middle;
   display: inline-block;
@@ -4703,7 +4707,7 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
   position: relative;
 }
 .agency_featured_item .agency_featured_content h3 {
-  font: 500 26px/36px "Poppins", sans-serif;
+  font: 600 26px/36px 'Open Sans', sans-serif;
   color: #222d39;
   margin: 32px 0px 25px;
 }
@@ -4749,7 +4753,7 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
   margin: 30px 0px 25px;
 }
 .software_featured_item .learn_btn {
-  font: 400 14px/26px "Poppins", sans-serif;
+  font: 400 14px/26px 'Open Sans', sans-serif;
   color: #222d39;
   position: relative;
   margin-top: 0px;
@@ -5273,17 +5277,17 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
 .payment_features_two .sec_title h2 {
   font-size: 35px;
   line-height: 44px;
-  font-weight: 500;
+  font-weight: 600;
 }
 
 .payment_features_item {
   border-radius: 4px;
   background-color: white;
   box-shadow: 0px 20px 60px 0px rgba(0, 11, 40, 0.06);
-  padding: 35px 20px;
+  padding: 20px 15px;
 }
 .payment_features_item h4 {
-  font: 600 20px/26px "Poppins", sans-serif;
+  font: 700 16px/20px 'Open Sans', sans-serif;
   margin-bottom: 22px;
 }
 .payment_features_item p {
@@ -5303,7 +5307,7 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
   font-size: 35px;
   line-height: 44px;
   margin-bottom: 18px;
-  font-weight: 500;
+  font-weight: 600;
 }
 .payment_features_content_two p {
   font-size: 18px;
@@ -5404,7 +5408,7 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
   font-size: 40px;
   line-height: 56px;
   color: #051441;
-  font-weight: 500;
+  font-weight: 600;
   margin-bottom: 32px;
 }
 .perfect_solution_area .perfect_solution_left .per_solution_content p {
@@ -5644,7 +5648,7 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
 .seo_features_content .seo_features_item h3 {
   font-size: 20px;
   color: #263b5e;
-  font-weight: 500;
+  font-weight: 600;
   margin-bottom: 15px;
 }
 .seo_features_content .seo_features_item p {
@@ -5699,7 +5703,7 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
 }
 
 .title-four h2 {
-  font: 600 30px/45px "Poppins", sans-serif;
+  font: 700 30px/45px 'Open Sans', sans-serif;
   color: #282835;
 }
 .title-four p {
@@ -6138,7 +6142,7 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
   transform: translate(-50%, -50%);
 }
 .agency_service_item a {
-  font: 400 14px/26px "Poppins", sans-serif;
+  font: 400 14px/26px 'Open Sans', sans-serif;
   color: #222d39;
   vertical-align: middle;
   position: relative;
@@ -6209,7 +6213,7 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
   border: 0px;
   border-left: 4px solid #e6e8ef;
   background: transparent;
-  font: 400 16px "Poppins", sans-serif;
+  font: 400 16px 'Open Sans', sans-serif;
   color: #677294;
   position: relative;
 }
@@ -6246,7 +6250,7 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
   line-height: 40px;
 }
 .software_service_tab_content .software_service_item h5 {
-  font: 600 17px/25px "Poppins", sans-serif;
+  font: 600 17px/25px 'Open Sans', sans-serif;
   color: #222d39;
 }
 .software_service_tab_content .software_service_item p {
@@ -6272,7 +6276,7 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
   float: left;
 }
 .developer_product_content .develor_tab .nav-item .nav-link {
-  font: 400 16px "Poppins", sans-serif;
+  font: 400 16px 'Open Sans', sans-serif;
   color: #677294;
   border: 0px;
   padding: 0px 0px 10px;
@@ -6306,7 +6310,7 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
   font-weight: 300;
 }
 .developer_product_content .developer_tab_content .details_btn {
-  font: 400 14px "Poppins", sans-serif;
+  font: 400 14px 'Open Sans', sans-serif;
   color: #3d64f4;
   position: relative;
   display: inline-block;
@@ -6444,7 +6448,7 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
   padding-left: 35px;
 }
 .service_details ul li {
-  font: 400 16px "Poppins", sans-serif;
+  font: 400 16px 'Open Sans', sans-serif;
   color: #677294;
   position: relative;
   padding-left: 35px;
@@ -6617,7 +6621,7 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
 .stratup_service_info .startup_service_item h3 {
   font-size: 18px;
   font-weight: 600;
-  font-family: "Poppins", sans-serif;
+  font-family: 'Open Sans', sans-serif;
   color: #051441;
   margin-bottom: 2px;
 }
@@ -6653,9 +6657,9 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
 .progress_bar_area .progress_item h4 {
   color: #051441;
   font-size: 20px;
-  font-weight: 500;
+  font-weight: 600;
   line-height: 30px;
-  font-family: "Poppins", sans-serif;
+  font-family: 'Open Sans', sans-serif;
 }
 .progress_bar_area .progress_item p {
   margin-bottom: 0;
@@ -6668,7 +6672,7 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
   transform: translate(-50%, -50%);
   font-size: 40px;
   color: #051441;
-  font-family: "Poppins", sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-weight: 400;
 }
 
@@ -6707,7 +6711,7 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
 .case_study_item h3 {
   font-size: 20px;
   line-height: 34px;
-  font-weight: 500;
+  font-weight: 600;
   color: #282835;
   margin-bottom: 0;
   transition: all 0.3s linear;
@@ -6740,7 +6744,7 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
   padding-right: 15px;
 }
 .study_details ul li {
-  font: 400 15px "Poppins", sans-serif;
+  font: 400 15px 'Open Sans', sans-serif;
   color: #677294;
   margin-bottom: 15px;
 }
@@ -6788,7 +6792,7 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
   margin-bottom: 50px;
 }
 .study_details_three .study_details_content ul li {
-  font: 400 15px/34px "Poppins", sans-serif;
+  font: 400 15px/34px 'Open Sans', sans-serif;
   color: #282835;
   position: relative;
   padding-left: 25px;
@@ -6815,7 +6819,7 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
   font-size: 20px;
   line-height: 28px;
   color: #263b5e;
-  font-weight: 500;
+  font-weight: 600;
   margin-top: 35px;
   margin-bottom: 16px;
   transition: color 0.2s linear;
@@ -6867,7 +6871,7 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
 .studies_item .text h4 {
   font-size: 20px;
   color: #263b5e;
-  font-weight: 500;
+  font-weight: 600;
   margin-bottom: 3px;
 }
 .studies_item .text p {
@@ -6902,11 +6906,11 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
 }
 .app-deatails-area .app-details .app-title {
   text-align: center;
-  font-family: "Poppins", sans-serif;
+  font-family: 'Open Sans', sans-serif;
   margin-bottom: 35px;
 }
 .app-deatails-area .app-details .app-title h5 {
-  font: 600 20px/30px "Poppins", sans-serif;
+  font: 600 20px/30px 'Open Sans', sans-serif;
   color: #282835;
   letter-spacing: 0px;
   padding: 45px 0px 10px;
@@ -6928,7 +6932,7 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
 }
 .app-deatails-area .app-details .customer_table table td {
   border: 0px;
-  font: 600 16px/22px "Poppins", sans-serif;
+  font: 600 16px/22px 'Open Sans', sans-serif;
   color: #282835;
 }
 .app-deatails-area .app-details .customer_table table td + td {
@@ -6986,7 +6990,7 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
   position: relative;
 }
 .s_pricing-item .tag_label {
-  font: 400 16px/22px "Poppins", sans-serif;
+  font: 400 16px/22px 'Open Sans', sans-serif;
   color: #fff;
   background: #5f2eed;
   transform: rotate(90deg);
@@ -7118,7 +7122,7 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
   position: relative;
 }
 .s_subcribes .form-control {
-  font: 300 16px/100px "Poppins", sans-serif;
+  font: 300 16px/100px 'Open Sans', sans-serif;
   color: #9ea4b7;
   height: 100px;
   padding: 0px 0px 0px 50px;
@@ -7177,7 +7181,7 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
 }
 .price_tab .nav-item .nav-link {
   margin: 0px;
-  font: 400 16px "Poppins", sans-serif;
+  font: 400 16px 'Open Sans', sans-serif;
   color: #677294;
   padding: 12px 30px;
   display: inline-block;
@@ -7230,7 +7234,7 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
 }
 .price_content .price_item .tag {
   position: absolute;
-  font: 400 14px "Poppins", sans-serif;
+  font: 400 14px 'Open Sans', sans-serif;
   color: #fff;
   background: #00aff0;
   padding: 19px 32px;
@@ -7262,7 +7266,7 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
   padding: 30px 0px 20px;
 }
 .price_content .price_item .p_list li {
-  font: 300 16px/40px "Poppins", sans-serif;
+  font: 300 16px/40px 'Open Sans', sans-serif;
   color: #505975;
 }
 .price_content .price_item .p_list li i {
@@ -7414,7 +7418,7 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
 .design_tab .nav-item .nav-link h5 {
   font-size: 17px;
   line-height: 26px;
-  font-weight: 500;
+  font-weight: 600;
   color: #222d39;
   transition: color 0.5s ease 0s;
 }
@@ -7556,7 +7560,7 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
 }
 .payment_priceing_area .sec_title h2 {
   font-size: 35px;
-  font-weight: 500;
+  font-weight: 600;
   line-height: 45px;
 }
 
@@ -7605,8 +7609,8 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
 }
 .payment_price_item .payment_price_btn {
   font-size: 15px;
-  font-family: "Poppins", sans-serif;
-  font-weight: 500;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
   border-radius: 45px;
   background: rgba(253, 83, 135, 0.1);
   display: inline-block;
@@ -7732,7 +7736,7 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
 .price_info_two .price_item h5 {
   margin-bottom: 0;
   font-size: 16px;
-  font-weight: 500;
+  font-weight: 600;
   color: #222d39;
 }
 .price_info_two .price_item h5 i {
@@ -7786,7 +7790,7 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
   color: #111 !important;
   opacity: 1;
   box-shadow: 0px 20px 40px 0px rgba(12, 0, 46, 0.14);
-  font-size: "Poppins", sans-serif;
+  font-size: 'Open Sans', sans-serif;
   font-size: 16px;
   color: #677294;
   line-height: 26px;
@@ -7849,13 +7853,13 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
   font-size: 20px;
   line-height: 28px;
   color: #282835;
-  font-family: "Poppins", sans-serif;
+  font-family: 'Open Sans', sans-serif;
 }
 .price_box_two p {
   font-size: 14px;
   line-height: 28px;
   color: #8b8b99;
-  font-family: "Poppins", sans-serif;
+  font-family: 'Open Sans', sans-serif;
 }
 .price_box_two .price_icon {
   margin-top: 24px;
@@ -7865,7 +7869,7 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
 }
 .price_box_two .rate {
   font-size: 40px;
-  font-family: "Poppins", sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-weight: 600;
   color: #282835;
   border-bottom: 1px solid #e8e8f0;
@@ -7879,7 +7883,7 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
   font-size: 14px;
   line-height: 34px;
   color: #727988;
-  font-family: "Poppins", sans-serif;
+  font-family: 'Open Sans', sans-serif;
 }
 .price_box_two .purchase_btn_two {
   font-size: 14px;
@@ -7890,7 +7894,7 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
   display: inline-block;
   padding: 9px 35px;
   text-align: center;
-  font-family: "Poppins", sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-weight: 600;
   transition: all 0.3s linear;
   position: relative;
@@ -7968,7 +7972,7 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
 }
 
 .about_btn {
-  font: 500 14px "Poppins", sans-serif;
+  font: 600 14px 'Open Sans', sans-serif;
   padding: 17px 28px;
   background: #fbfbfd;
   box-shadow: 0px 20px 30px 0px rgba(12, 0, 46, 0.1);
@@ -8087,7 +8091,7 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
 }
 .onepage_about_area .align_items_center {
   align-items: center;
-  font-family: "Poppins", sans-serif;
+  font-family: 'Open Sans', sans-serif;
 }
 .onepage_about_area .onepage_about_img {
   margin-left: 30px;
@@ -8218,7 +8222,7 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
   padding: 25px 0px 0px;
   text-align: left;
   width: 100%;
-  font: 500 20px/26px "Poppins", sans-serif;
+  font: 600 20px/26px 'Open Sans', sans-serif;
   color: #8b8b99;
   text-decoration: none;
   border-radius: 0px;
@@ -8293,7 +8297,7 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
   margin-bottom: 5px;
 }
 .agency_testimonial_info .testimonial_slider .testimonial_item .author_description h6 {
-  font: 400 14px/26px "Poppins", sans-serif;
+  font: 400 14px/26px 'Open Sans', sans-serif;
   color: #959cb1;
 }
 .agency_testimonial_info .testimonial_slider .testimonial_item p {
@@ -8404,7 +8408,7 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
 .subscribe_form_info .subscribe-form .form-control {
   text-align: center;
   border: 0px;
-  font: 400 18px/28px "Poppins", sans-serif;
+  font: 400 18px/28px 'Open Sans', sans-serif;
   color: #b4bacc;
   border-radius: 0px;
   border-bottom: 1px solid #3d64f4;
@@ -8520,7 +8524,7 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
 /*============== saas_signup_area css ==============*/
 .saas_signup_form .input-group .form-control {
   background: transparent;
-  font: 300 14px "Poppins", sans-serif;
+  font: 300 14px 'Open Sans', sans-serif;
   color: rgba(255, 255, 255, 0.7);
   border-radius: 0px;
   border: 0px;
@@ -8881,7 +8885,7 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
   background-image: linear-gradient(140deg, #672dde 0%, #4069eb 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  font-family: "Poppins", sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-size: 200px;
   line-height: 200px;
   z-index: -1;
@@ -9010,7 +9014,7 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
   margin-bottom: 3px;
 }
 .ex_team_item h5 {
-  font: 300 14px/24px "Poppins", sans-serif;
+  font: 300 14px/24px 'Open Sans', sans-serif;
   color: #677294;
   margin-bottom: 0px;
 }
@@ -9205,7 +9209,7 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
   transform: rotate(180deg);
   left: -35px;
   top: 0;
-  font-family: "Poppins", sans-serif;
+  font-family: 'Open Sans', sans-serif;
   height: 133px;
 }
 .payment_testimonial_info .testimonial_content p {
@@ -9251,7 +9255,7 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
 /*=========== sass_partner_logo_area css ==========*/
 .sass_partner_logo_area, .saas_map_area, .saas_subscribe_area {
   background: #fff;
-  font-family: "Poppins", sans-serif;
+  font-family: 'Open Sans', sans-serif;
 }
 
 /*=========== saas_subscribe_area css ==========*/
@@ -9303,7 +9307,7 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
   padding-top: 0px;
 }
 .payment_subscribe_info .payment_subscribe_content h2 {
-  font: 600 26px "Poppins", sans-serif;
+  font: 600 26px 'Open Sans', sans-serif;
   color: #fff;
 }
 .payment_subscribe_info .payment_subscribe_content p {
@@ -9372,7 +9376,7 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
 .testimonial_title h6 {
   font-size: 16px;
   color: #563bd1;
-  font-family: "Poppins", sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-style: italic;
 }
 .testimonial_title .owl-prev, .testimonial_title .owl-next {
@@ -9466,7 +9470,7 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
 .video_area {
   position: relative;
   z-index: 1;
-  font-family: "Poppins", sans-serif;
+  font-family: 'Open Sans', sans-serif;
 }
 
 .video_content {
@@ -9766,7 +9770,7 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
   color: #fff;
 }
 .get_content .app_btn {
-  font: 500 16px "Poppins", sans-serif;
+  font: 600 16px 'Open Sans', sans-serif;
   padding: 12px 34px;
   border-color: #fff;
   background: #fff;
@@ -9871,7 +9875,7 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
   border-bottom: 1px solid #e7e7f6;
 }
 .job_listing .job_list_tab .list_item_tab {
-  font: 300 15px/26px "Poppins", sans-serif;
+  font: 300 15px/26px 'Open Sans', sans-serif;
   color: #677294;
   padding: 0px 0px 10px;
   border: 0px;
@@ -9957,7 +9961,7 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
 }
 .job_listing .listing_tab .list_item .joblisting_text ul li {
   float: left;
-  font: 300 14px/15px "Poppins", sans-serif;
+  font: 300 14px/15px 'Open Sans', sans-serif;
   color: #677294;
   padding: 0px 10px;
   border-left: 2px solid #aeb3c3;
@@ -9979,7 +9983,7 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
   float: right;
 }
 .job_listing .listing_tab .list_item .joblisting_text .jobsearch-job-userlist .apply_btn {
-  font: 300 14px/36px "Poppins", sans-serif;
+  font: 300 14px/36px 'Open Sans', sans-serif;
   color: #5c6789;
   border: 1px solid #e7e7f6;
   border-radius: 3px;
@@ -10102,7 +10106,7 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
 .job_info .info_item h6 {
   font-size: 18px;
   color: #222d39;
-  font-family: "Poppins", sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-weight: 400;
   margin-bottom: 5px;
 }
@@ -10121,7 +10125,7 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
   border-radius: 4px;
   background-color: white;
   box-shadow: 0px 2px 4px 0px rgba(12, 0, 46, 0.04);
-  font: 300 15px/60px "Poppins", sans-serif;
+  font: 300 15px/60px 'Open Sans', sans-serif;
   color: #9ca3b9;
   width: 100%;
   height: 60px;
@@ -10154,12 +10158,12 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
 .apply_form .upload_box {
   width: 100%;
   border: 1px dotted #e7e3f2;
-  font: 300 15px/26px "Poppins", sans-serif;
+  font: 300 15px/26px 'Open Sans', sans-serif;
   color: #9ca3b9;
   padding: 20px 50px;
 }
 .apply_form .upload_box input[type=file] {
-  font: 300 15px/26px "Poppins", sans-serif;
+  font: 300 15px/26px 'Open Sans', sans-serif;
   color: #9ca3b9;
   display: block;
   margin-top: 45px;
@@ -10168,7 +10172,7 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
   outline: none;
 }
 .apply_form p {
-  font: 300 15px/26px "Poppins", sans-serif;
+  font: 300 15px/26px 'Open Sans', sans-serif;
   color: #677294;
 }
 .apply_form p a {
@@ -10176,7 +10180,7 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
 }
 .apply_form .btn_three {
   font-size: 14px;
-  font-weight: 500;
+  font-weight: 600;
   background: #5e2ced;
   padding: 14px 37px;
   border-radius: 3px;
@@ -10207,7 +10211,7 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
   margin: 0px;
 }
 .faq_tab .nav-item .nav-link {
-  font: 400 16px/22px "Poppins", sans-serif;
+  font: 400 16px/22px 'Open Sans', sans-serif;
   color: #677294;
   padding: 0px;
   border: 0px;
@@ -10249,7 +10253,7 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
   display: block;
   width: 100%;
   text-align: left;
-  font: 500 18px/26px "Poppins", sans-serif;
+  font: 600 18px/26px 'Open Sans', sans-serif;
   padding: 20px 30px 20px 0px;
   position: relative;
   white-space: normal;
@@ -10276,7 +10280,7 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
 }
 .faq_content .tab-pane .card .card-body {
   padding: 0px 0px 45px;
-  font: 400 15px/26px "Poppins", sans-serif;
+  font: 400 15px/26px 'Open Sans', sans-serif;
   color: #677294;
 }
 
@@ -10304,7 +10308,7 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
   justify-content: center;
 }
 .portfolio_filter .work_portfolio_item {
-  font: 400 16px/22px "Poppins", sans-serif;
+  font: 400 16px/22px 'Open Sans', sans-serif;
   color: #677294;
   display: inline-block;
   border-radius: 3px;
@@ -10679,7 +10683,7 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
   margin-bottom: 30px;
 }
 .text_box input[type=text], .text_box textarea, .text_box input[type=password], .text_box input[type=email] {
-  font: 400 15px/60px "Poppins", sans-serif;
+  font: 400 15px/60px 'Open Sans', sans-serif;
   color: #222d39;
   height: 60px;
   border-radius: 4px;
@@ -10765,7 +10769,7 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
 .login-form .extra {
   display: flex;
   justify-content: space-between;
-  font: 400 14px/30px "Poppins", sans-serif;
+  font: 400 14px/30px 'Open Sans', sans-serif;
   margin-top: 45px;
 }
 .login-form .extra .checkbox label {
@@ -10817,7 +10821,7 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
   box-shadow: 0px 20px 30px 0px rgba(61, 100, 244, 0.16);
 }
 .login-form .alter-login {
-  font: 400 15px/26px "Poppins", sans-serif;
+  font: 400 15px/26px 'Open Sans', sans-serif;
   color: #9ca3b9;
 }
 .login-form .alter-login a {
@@ -10849,7 +10853,7 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
   color: #677294;
 }
 .sign_info .sign_info_content ul li {
-  font: 400 16px/34px "Poppins", sans-serif;
+  font: 400 16px/34px 'Open Sans', sans-serif;
   color: #677294;
 }
 .sign_info .sign_info_content ul li i {
@@ -10860,7 +10864,7 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
   margin-bottom: 25px;
 }
 .sign_info .lead-text {
-  font: 400 14px/40px "Poppins", sans-serif;
+  font: 400 14px/40px 'Open Sans', sans-serif;
   color: #677294;
   padding-right: 20px;
 }
@@ -10915,7 +10919,7 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
   margin-bottom: 30px;
 }
 .get_quote_form .form-group .form-control {
-  font: 300 15px "Poppins", sans-serif;
+  font: 300 15px 'Open Sans', sans-serif;
   color: #677294;
   border-radius: 4px;
   background-color: white;
@@ -10994,7 +10998,7 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
 }
 .saasland_container .saasland_col_content .saasland_content h2 {
   font-size: 30px;
-  font-family: "Poppins", sans-serif;
+  font-family: 'Open Sans', sans-serif;
   color: #747d99;
   margin-bottom: 30px;
   font-weight: 400;
@@ -11007,7 +11011,7 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
   margin-bottom: 60px;
 }
 .saasland_container .saasland_col_content .saasland_content .car_theme_btn {
-  font-family: "Poppins", sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-size: 16px;
   text-transform: capitalize;
 }
@@ -11016,7 +11020,7 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
   left: 21%;
   position: absolute;
   width: 70%;
-  font: 400 12px/40px "Poppins", sans-serif;
+  font: 400 12px/40px 'Open Sans', sans-serif;
   color: #7f88a6;
 }
 .saasland_container .saasland_col_content .saasland_bottom a {
@@ -11048,7 +11052,7 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
 }
 .saasland_col_screen .clock .timer span {
   font-size: 50px;
-  font-weight: 500;
+  font-weight: 600;
   line-height: 50px;
 }
 .saasland_col_screen .clock .timer .smalltext {
@@ -11226,7 +11230,7 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
 
 .error_content_two h2 {
   font-size: 40px;
-  font-weight: 500;
+  font-weight: 600;
   line-height: 50px;
   color: #051441;
   margin-top: 40px;
@@ -11403,7 +11407,7 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
 }
 .thanks_content a {
   font-size: 14px;
-  font-weight: 500;
+  font-weight: 600;
   color: #959bad;
   position: relative;
   text-transform: uppercase;
@@ -11513,7 +11517,7 @@ p span {
   font-size: 18px;
 }
 .heading_style.medium h1, .heading_style.medium h2, .heading_style.medium h3, .heading_style.medium h4, .heading_style.medium h5, .heading_style.medium h6 {
-  font-weight: 500;
+  font-weight: 600;
 }
 .heading_style.medium .h_title {
   font-weight: 300;
@@ -11711,7 +11715,7 @@ p span {
   font-size: 20px;
   line-height: 28px;
   color: #222d39;
-  font-weight: 500;
+  font-weight: 600;
   margin-bottom: 10px;
 }
 .box_alert .media-body p {
@@ -12096,7 +12100,7 @@ p span {
   background: #fff;
 }
 .blog_content .post_date h2 {
-  font: 700 30px/20px "Poppins", sans-serif;
+  font: 700 30px/20px 'Open Sans', sans-serif;
   margin-bottom: 0px;
   color: #5e2ced;
   padding-top: 5px;
@@ -12115,7 +12119,7 @@ p span {
   color: #5e2ced;
 }
 .blog_content .learn_btn_two {
-  font: 400 14px "Poppins", sans-serif;
+  font: 400 14px 'Open Sans', sans-serif;
   color: #282835;
 }
 .blog_content .learn_btn_two:before {
@@ -12132,7 +12136,7 @@ p span {
 }
 
 .entry_post_info {
-  font: 400 15px/25px "Poppins", sans-serif;
+  font: 400 15px/25px 'Open Sans', sans-serif;
   color: #677294;
   padding-bottom: 5px;
 }
@@ -12163,7 +12167,7 @@ p span {
   padding-bottom: 10px;
 }
 .post_share a {
-  font: 400 14px/26px "Poppins", sans-serif;
+  font: 400 14px/26px 'Open Sans', sans-serif;
   color: #525c7c;
 }
 .post_share a i {
@@ -12181,7 +12185,7 @@ p span {
 }
 
 .post-nam {
-  font: 400 15px/26px "Poppins", sans-serif;
+  font: 400 15px/26px 'Open Sans', sans-serif;
   color: #282835;
 }
 
@@ -12192,7 +12196,7 @@ p span {
   padding-right: 10px;
 }
 .post_tag a {
-  font: 400 13px/26px "Poppins", sans-serif;
+  font: 400 13px/26px 'Open Sans', sans-serif;
   color: #595b64;
   border: 1px solid #cfcfe6;
   border-radius: 3px;
@@ -12273,7 +12277,7 @@ p span {
   position: relative;
 }
 .blog-sidebar .widget.widget_search .search-form .form-control {
-  font: 300 14px "Poppins", sans-serif;
+  font: 300 14px 'Open Sans', sans-serif;
   color: #677294;
   border-radius: 3px;
   background-color: white;
@@ -12343,7 +12347,7 @@ p span {
   margin-bottom: 0px;
 }
 .blog-sidebar .widget.widget_categorie ul li a {
-  font: 400 16px/35px "Poppins", sans-serif;
+  font: 400 16px/35px 'Open Sans', sans-serif;
   color: #282835;
   transition: all 0.2s linear;
 }
@@ -12365,7 +12369,7 @@ p span {
   margin-right: -5px;
 }
 .blog-sidebar .widget.widget_tag_cloud .post-tags a {
-  font: 400 13px/26px "Poppins", sans-serif;
+  font: 400 13px/26px 'Open Sans', sans-serif;
   color: #595b64;
   border: 1px solid #cfcfe6;
   border-radius: 3px;
@@ -12428,7 +12432,7 @@ p span {
   padding-right: 25px;
 }
 .blog-sidebar .widget.recent_post_widget_two .post_item .media-body h3 {
-  font: 500 16px/22px "Poppins", sans-serif;
+  font: 600 16px/22px 'Open Sans', sans-serif;
   color: #222d39;
   margin-bottom: 0;
 }
@@ -12607,7 +12611,7 @@ p span {
 }
 .blog_list_item_two .blog_content .post-info-bottom .post-info-comments {
   font-size: 13px;
-  font-weight: 500;
+  font-weight: 600;
   letter-spacing: 1px;
   color: #282835;
 }
@@ -12621,7 +12625,7 @@ p span {
   margin-top: 0px;
   line-height: 20px;
   display: inline-block;
-  font-weight: 500;
+  font-weight: 600;
 }
 .blog_list_item_two .blog_content .post-info-comments {
   text-transform: uppercase;
@@ -12634,7 +12638,7 @@ p span {
   line-height: 36px;
   font-weight: 600;
   color: #222d39;
-  font-family: "Poppins", sans-serif;
+  font-family: 'Open Sans', sans-serif;
   margin-bottom: 15px;
 }
 .blog_title:hover {
@@ -12672,7 +12676,7 @@ p span {
 .qutoe_post .blog_content h6 {
   font-size: 20px;
   color: #525c7c;
-  font-weight: 500;
+  font-weight: 600;
   line-height: 34px;
   margin-bottom: 0;
 }
@@ -12695,7 +12699,7 @@ p span {
   transform: translateY(-50%);
 }
 .qutoe_post.qutoe_post_two .blog_content .blog_title {
-  font-weight: 500;
+  font-weight: 600;
 }
 
 .blog_grid_info .blog_list_item {
@@ -12741,7 +12745,7 @@ p span {
   text-transform: uppercase;
   font-size: 13px;
   color: #424255;
-  font-weight: 500;
+  font-weight: 600;
   letter-spacing: 1px;
 }
 .blog_single_info .blog_list_item_two .blog_content .post-info-bottom .social_icon ul {
@@ -12759,7 +12763,7 @@ p span {
   color: #5e2ced;
 }
 .blog_single_info .blog_titles {
-  font: 600 20px "Poppins", sans-serif;
+  font: 600 20px 'Open Sans', sans-serif;
   color: #282835;
   margin-bottom: 30px;
 }
@@ -12805,7 +12809,7 @@ p span {
 .blog_single_info blockquote h6 {
   font-size: 20px;
   color: #525c7c;
-  font-weight: 500;
+  font-weight: 600;
   line-height: 34px;
   margin-bottom: 0;
 }
@@ -12832,11 +12836,11 @@ p span {
   margin-right: 30px;
 }
 .post_author_two .media-body .comment_info h3 {
-  font: 500 18px/24px "Poppins", sans-serif;
+  font: 600 18px/24px 'Open Sans', sans-serif;
   color: #282835;
 }
 .post_author_two .media-body .comment_info .comment-date {
-  font: 400 14px "Poppins", sans-serif;
+  font: 400 14px 'Open Sans', sans-serif;
   color: #677294;
 }
 .post_author_two .media-body p {
@@ -12887,7 +12891,7 @@ p span {
 }
 .comment_inner .comment_box .post_comment .post_author_two .comment_reply {
   float: right;
-  font: 500 13px/26px "Poppins", sans-serif;
+  font: 600 13px/26px 'Open Sans', sans-serif;
   text-transform: uppercase;
   letter-spacing: 1px;
   color: #424255;
@@ -12983,7 +12987,7 @@ p span {
   font-size: 15px;
   line-height: 26px;
   color: #282835;
-  font-family: "Poppins", sans-serif;
+  font-family: 'Open Sans', sans-serif;
   min-height: 66px;
 }
 .widget_recent_comments #recentcomments .recentcomments:before {
@@ -13028,12 +13032,12 @@ p span {
 /*============= shop_grid_area css ==============*/
 .shop_menu_left p {
   margin-bottom: 0px;
-  font: 300 16px "Poppins", sans-serif;
+  font: 300 16px 'Open Sans', sans-serif;
   color: #282835;
 }
 
 .shop_menu_right h5 {
-  font: 500 16px "Poppins", sans-serif;
+  font: 600 16px 'Open Sans', sans-serif;
   color: #282835;
   margin-bottom: 5px;
 }
@@ -13046,7 +13050,7 @@ p span {
   top: 42%;
 }
 .shop_menu_right .selectpickers .current {
-  font: 300 16px "Poppins", sans-serif;
+  font: 300 16px 'Open Sans', sans-serif;
   color: #677294;
 }
 .shop_menu_right .shop_grid {
@@ -13114,11 +13118,11 @@ p span {
   display: flex;
   flex-direction: row-reverse;
   justify-content: center;
-  font: 300 14px/28px "Poppins", sans-serif;
+  font: 300 14px/28px 'Open Sans', sans-serif;
   color: #677294;
 }
 .single_product_item .single_pr_details .price ins {
-  font-weight: 500;
+  font-weight: 600;
   color: #282835;
   text-decoration: none;
   padding-right: 12px;
@@ -13192,7 +13196,7 @@ p span {
   float: right;
 }
 .shop_list_item .single_product_item .single_pr_details .pr_button .cart_btn {
-  font: 400 15px/30px "Poppins", sans-serif;
+  font: 400 15px/30px 'Open Sans', sans-serif;
   color: #677294;
   border: 1px solid #e7e7f6;
   border-radius: 45px;
@@ -13277,7 +13281,7 @@ p span {
   color: #677294;
 }
 .pr_details .price {
-  font: 300 20px "Poppins", sans-serif;
+  font: 300 20px 'Open Sans', sans-serif;
   color: #677294;
   display: flex;
   justify-content: flex-end;
@@ -13291,7 +13295,7 @@ p span {
   padding-right: 18px;
 }
 .pr_details .stock {
-  font: 400 16px "Poppins", sans-serif;
+  font: 400 16px 'Open Sans', sans-serif;
   color: #5e2ced;
   vertical-align: middle;
   padding-top: 20px;
@@ -13343,7 +13347,7 @@ p span {
 }
 .pr_details .cart_button .cart_btn {
   border-radius: 45px;
-  font: 400 15px/48px "Poppins", sans-serif;
+  font: 400 15px/48px 'Open Sans', sans-serif;
   color: #677294;
   border: 1px solid #e7e7f6;
   background: #f8f8fc;
@@ -13374,7 +13378,7 @@ p span {
   margin-bottom: 0;
 }
 .pr_details .product_meta li {
-  font-family: "Poppins", sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-weight: 300;
   color: #677294;
   margin-bottom: 10px;
@@ -13392,7 +13396,7 @@ p span {
 }
 .pr_details .share-link label {
   margin-bottom: 0px;
-  font: 400 15px "Poppins", sans-serif;
+  font: 400 15px 'Open Sans', sans-serif;
   color: #282835;
 }
 .pr_details .share-link .social-icon {
@@ -13432,7 +13436,7 @@ p span {
   border-left: 0px;
 }
 .product_info_details .pr_tab .nav-item .nav-link {
-  font: 300 16px/40px "Poppins", sans-serif;
+  font: 300 16px/40px 'Open Sans', sans-serif;
   color: #677294;
   padding: 5px 25px;
   min-width: 148px;
@@ -13468,12 +13472,12 @@ p span {
   border-radius: 50%;
 }
 .product_info_details .comment-box .comment-content .comment-header {
-  font: 300 14px "Poppins", sans-serif;
+  font: 300 14px 'Open Sans', sans-serif;
   display: inline-block;
 }
 .product_info_details .comment-box .comment-content .comment-header a {
   font-size: 15px;
-  font-weight: 500;
+  font-weight: 600;
   color: #3d3f45;
 }
 .product_info_details .comment-box .comment-content .comment-header a:after {
@@ -13502,7 +13506,7 @@ p span {
   border: 1px solid #ebebf7;
   border-radius: 4px;
   background: transparent;
-  font: 300 14px "Poppins", sans-serif;
+  font: 300 14px 'Open Sans', sans-serif;
   color: #282835;
   padding-left: 25px;
   box-shadow: none;
@@ -13576,7 +13580,7 @@ input[type=number] {
 }
 .shopping_cart_area .cart_table td {
   vertical-align: middle;
-  font: 400 16px/28px "Poppins", sans-serif;
+  font: 400 16px/28px 'Open Sans', sans-serif;
   color: #282835;
   border: 0px;
   padding-top: 0px;
@@ -13597,7 +13601,7 @@ input[type=number] {
   align-self: center;
 }
 .shopping_cart_area .cart_table .product .media .media-body h5 {
-  font: 500 16px/28px "Poppins", sans-serif;
+  font: 600 16px/28px 'Open Sans', sans-serif;
   color: #282835;
 }
 .shopping_cart_area .cart_table .total {
@@ -13677,7 +13681,7 @@ input[type=number] {
   color: #677294;
 }
 .shopping_cart_area .cart_btn {
-  font: 400 14px "Poppins", sans-serif;
+  font: 400 14px 'Open Sans', sans-serif;
   color: #fff;
   border: 1px solid #5e2ced;
   margin: 0px;
@@ -13704,7 +13708,7 @@ input[type=number] {
   width: 140px;
 }
 .shopping_cart_area .wislist_table .add_cart {
-  font: 400 14px "Poppins", sans-serif;
+  font: 400 14px 'Open Sans', sans-serif;
   border: 1px solid #e7e7f6;
   background: transparent;
   color: #5c6789;
@@ -13736,7 +13740,7 @@ input[type=number] {
   width: 70%;
 }
 .cart_box .shop_table tbody tr td, .cart_box .shop_table tbody tr th {
-  font: 400 16px/28px "Poppins", sans-serif;
+  font: 400 16px/28px 'Open Sans', sans-serif;
   color: #282835;
   padding: 10px 0px;
 }
@@ -13760,7 +13764,7 @@ input[type=number] {
   border-radius: 4px;
   background-color: white;
   box-shadow: 0px 2px 4px 0px rgba(12, 0, 46, 0.04);
-  font: 300 15px "Poppins", sans-serif;
+  font: 300 15px 'Open Sans', sans-serif;
   color: #9ca3b9;
   height: 55px;
   padding-left: 25px;
@@ -13774,7 +13778,7 @@ input[type=number] {
   position: absolute;
   right: 4px;
   top: 50%;
-  font: 400 14px/38px "Poppins", sans-serif;
+  font: 400 14px/38px 'Open Sans', sans-serif;
   color: #282835;
   height: 48px;
   padding: 0px 25px;
@@ -13791,7 +13795,7 @@ input[type=number] {
 }
 
 .checkout_button {
-  font: 500 15px/30px "Poppins", sans-serif;
+  font: 600 15px/30px 'Open Sans', sans-serif;
   color: #fff;
   background: #5e2ced;
   border-radius: 0px;
@@ -13810,7 +13814,7 @@ input[type=number] {
 
 /*================== check list css ======================*/
 .return_customer {
-  font: 400 15px/25px "Poppins", sans-serif;
+  font: 400 15px/25px 'Open Sans', sans-serif;
   color: #3d3f45;
   padding-bottom: 20px;
 }
@@ -13838,7 +13842,7 @@ input[type=number] {
   box-shadow: 0px 2px 4px 0px rgba(12, 0, 46, 0.04);
   background: #fff;
   padding: 0px 30px;
-  font: 300 14px/60px "Poppins", sans-serif;
+  font: 300 14px/60px 'Open Sans', sans-serif;
   color: #969ca5;
   border: 1px solid transparent;
   border-radius: 4px;
@@ -13864,7 +13868,7 @@ input[type=number] {
   outline: none;
 }
 .checkout_content label {
-  font: 600 16px/50px "Poppins", sans-serif;
+  font: 600 16px/50px 'Open Sans', sans-serif;
   display: block;
   color: #282835;
   margin-bottom: 20px;
@@ -13879,7 +13883,7 @@ input[type=number] {
   border-radius: 0px;
   border: 0px;
   box-shadow: 0px 2px 3px 0px rgba(0, 11, 40, 0.06);
-  font: 300 14px/60px "Poppins", sans-serif;
+  font: 300 14px/60px 'Open Sans', sans-serif;
   background: #fff;
   height: 60px;
   color: #9ca3b9;
@@ -13923,7 +13927,7 @@ input[type=number] {
 }
 .checkout_content .l_text {
   display: inline-block;
-  font: 300 15px/26px "Poppins", sans-serif;
+  font: 300 15px/26px 'Open Sans', sans-serif;
   color: #9ca3b9;
   padding-left: 8px;
 }
@@ -13933,7 +13937,7 @@ input[type=number] {
   border-radius: 0px;
   box-shadow: 0px 2px 3px 0px rgba(0, 11, 40, 0.06);
   height: 170px;
-  font: 300 14px/20px "Poppins", sans-serif;
+  font: 300 14px/20px 'Open Sans', sans-serif;
   color: #b6b9be;
   padding-left: 30px;
   padding-top: 20px;
@@ -13955,7 +13959,7 @@ input[type=number] {
   outline: none;
 }
 .checkout_content .tab_content p {
-  font-family: "Poppins", sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-size: 15px;
   margin-bottom: 0px;
   padding: 0px 0px 25px;
@@ -13974,7 +13978,7 @@ input[type=number] {
 }
 .checkout_content .tab_content .login_btn {
   float: right;
-  font: 400 16px/48px "Poppins", sans-serif;
+  font: 400 16px/48px 'Open Sans', sans-serif;
   background: #5e2ced;
   border: 1px solid #5e2ced;
   color: #fff;
@@ -14016,7 +14020,7 @@ input[type=number] {
   margin-bottom: 30px;
 }
 .woocommerce-checkout-review-order .shop_table tbody tr td {
-  font: 400 15px/30px "Poppins", sans-serif;
+  font: 400 15px/30px 'Open Sans', sans-serif;
   color: #677294;
 }
 .woocommerce-checkout-review-order .shop_table tbody tr td.price {
@@ -14039,7 +14043,7 @@ input[type=number] {
 .woocommerce-checkout-review-order h6 {
   font-size: 15px;
   color: #282835;
-  font-family: "Poppins", sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-weight: 400;
   margin: 0px;
   line-height: 30px;
@@ -14050,7 +14054,7 @@ input[type=number] {
   line-height: 26px;
   color: #677294;
   font-weight: 300;
-  font-family: "Poppins", sans-serif;
+  font-family: 'Open Sans', sans-serif;
   margin-bottom: 25px;
 }
 .woocommerce-checkout-review-order ul li.payment {
@@ -14139,7 +14143,7 @@ input[type=number] {
   padding-left: 25px;
   font-size: 16px;
   line-height: 26px;
-  font-family: "Poppins", sans-serif;
+  font-family: 'Open Sans', sans-serif;
   color: #282835;
 }
 .woocommerce-checkout-review-order .condition .l_text span {
@@ -14176,7 +14180,7 @@ input[type=number] {
   width: 100%;
   background: #5e2ced;
   border: 1px solid #5e2ced;
-  font: 500 16px/50px "Poppins", sans-serif;
+  font: 600 16px/50px 'Open Sans', sans-serif;
   color: #fff;
   cursor: pointer;
   margin-top: 25px;
@@ -14193,7 +14197,7 @@ input[type=number] {
 .pr_sidebar .sp_widget_title {
   color: #282835;
   font-size: 20px;
-  font-weight: 500;
+  font-weight: 600;
   position: relative;
   margin-bottom: 30px;
 }
@@ -14225,7 +14229,7 @@ input[type=number] {
 .pr_sidebar .filter_slider_area .filter_content {
   font-size: 16px;
   text-transform: capitalize;
-  font-family: "Poppins", sans-serif;
+  font-family: 'Open Sans', sans-serif;
   color: #282835;
   display: flex;
   margin-top: 30px;
@@ -14478,7 +14482,7 @@ input[type=number] {
   color: rgba(255, 255, 255, 0.6);
   font-size: 24px;
   padding: 0px;
-  font-family: "Poppins", sans-serif;
+  font-family: 'Open Sans', sans-serif;
   outline: none !important;
   box-shadow: none !important;
   cursor: pointer;
@@ -14850,7 +14854,7 @@ input[type=text] {
   line-height: 50px;
   color: #051441;
   font-weight: 700;
-  font-family: "Poppins", sans-serif;
+  font-family: 'Open Sans', sans-serif;
 }
 .split_title span {
   font-weight: 400;
@@ -14879,7 +14883,7 @@ input[type=text] {
   display: flex;
   justify-content: space-between;
   font-size: 15px;
-  font-weight: 500;
+  font-weight: 600;
   color: #051441;
   padding-bottom: 8px;
 }
@@ -15093,7 +15097,7 @@ input[type=text] {
   background: #f8636b;
   color: #fff;
   font-size: 16px;
-  font-weight: 500;
+  font-weight: 600;
   border-radius: 4px;
   padding: 11px 34px;
   box-shadow: 0px 10px 50px 0px rgba(248, 99, 107, 0.3);
@@ -15222,7 +15226,7 @@ input[type=text] {
 }
 .domain_price li {
   font-size: 18px;
-  font-weight: 500;
+  font-weight: 600;
   color: #7b7b93;
 }
 .domain_price li + li {
@@ -15245,7 +15249,7 @@ input[type=text] {
 .hosting_title h2 {
   font-size: 40px;
   line-height: 55px;
-  font-weight: 600;
+  font-weight: 700;
   color: #2c2c51;
   margin-bottom: 15px;
 }
@@ -15310,7 +15314,7 @@ input[type=text] {
 
 .h_head {
   font-size: 20px;
-  font-weight: 600;
+  font-weight: 700;
   color: #2c2c51;
   margin-bottom: 20px;
   transition: all 0.3s linear;
@@ -15332,7 +15336,7 @@ a .h_head:hover {
   margin-bottom: 40px;
 }
 .h_features_content .hosting_title h2 {
-  font-weight: 500;
+  font-weight: 600;
 }
 
 .h_features_item {
@@ -15386,7 +15390,7 @@ a .h_head:hover {
 .h_blog_item .h_blog_content h3 {
   font-size: 24px;
   line-height: 34px;
-  font-weight: 500;
+  font-weight: 600;
   color: #2c2c51;
   transition: color 0.2s linear;
 }
@@ -15396,7 +15400,7 @@ a .h_head:hover {
 .h_blog_item .h_blog_content .post_time {
   font-size: 14px;
   color: #7b7b93;
-  font-weight: 500;
+  font-weight: 600;
   text-transform: uppercase;
   margin-bottom: 10px;
   display: inline-block;
@@ -15416,7 +15420,7 @@ a .h_head:hover {
   line-height: 16px;
   color: #7b7b93;
   text-transform: uppercase;
-  font-weight: 500;
+  font-weight: 600;
   position: relative;
 }
 .h_blog_item .h_blog_content .post-info-bottom .learn_btn_two:before {
@@ -15445,7 +15449,7 @@ a .h_head:hover {
 .h_blog_item .h_blog_content .post-info-bottom .post-info-comments {
   color: #7b7b93;
   text-transform: uppercase;
-  font-weight: 500;
+  font-weight: 600;
   font-size: 14px;
   line-height: 16px;
 }
@@ -15564,7 +15568,7 @@ a .h_head:hover {
 }
 .h_map ul li .place_name {
   font-size: 12px;
-  font-weight: 500;
+  font-weight: 600;
   line-height: 25px;
   color: #fff;
   border-radius: 45px;
@@ -15691,7 +15695,7 @@ a .h_head:hover {
   margin-bottom: 10px;
 }
 .h_footer_dark .f_widget.about-widget .f_list li a:before {
-  background: #f8636b;
+  background: #98c11d;
 }
 .h_footer_dark .f_widget.about-widget .f_list li a:hover {
   color: #f8636b;
@@ -16007,7 +16011,7 @@ a .h_head:hover {
 .hosting_tab .nav-item .nav-link {
   text-align: center;
   font-size: 16px;
-  font-weight: 500;
+  font-weight: 600;
   color: #7b7b93;
   background: #faf7f8;
   border-radius: 0px;
@@ -16048,7 +16052,7 @@ a .h_head:hover {
 }
 .h_price_body .price_head .p_head h5 {
   font-size: 14px;
-  font-weight: 500;
+  font-weight: 600;
   color: #2c2c51;
   margin-bottom: 0;
   text-transform: uppercase;
@@ -16085,7 +16089,7 @@ a .h_head:hover {
 .h_price_body .h_p_list .h_price_item .h_price_btn {
   border: 1px solid #f8c0c3;
   font-size: 14px;
-  font-weight: 500;
+  font-weight: 600;
   color: #f8636b;
   border-radius: 4px;
   padding: 11px 20px;
@@ -16256,7 +16260,7 @@ a .h_head:hover {
   font-size: 16px;
   line-height: 20px;
   color: #4e78f4;
-  font-weight: 500;
+  font-weight: 600;
   display: inline-block;
   margin-top: 40px;
 }
@@ -16286,7 +16290,7 @@ a .h_head:hover {
 .erp_analytics_item p {
   font-size: 22px;
   color: #2c2c51;
-  font-weight: 500;
+  font-weight: 600;
   margin-bottom: 0;
   margin-top: 25px;
 }
@@ -16303,9 +16307,9 @@ a .h_head:hover {
 .er_btn {
   border: 2px solid #c8d4fa;
   font-size: 16px;
-  font-weight: 500;
+  font-weight: 600;
   color: #4e78f4;
-  font-family: "Poppins", sans-serif;
+  font-family: 'Open Sans', sans-serif;
   border-radius: 45px;
   line-height: 26px;
   padding: 8px 27px;
@@ -16385,7 +16389,7 @@ a .h_head:hover {
 }
 .erp_testimonial_item .media .media-body h5 {
   font-size: 18px;
-  font-weight: 500;
+  font-weight: 600;
   color: #2c2c51;
   margin-bottom: 3px;
 }
@@ -16575,7 +16579,7 @@ a .h_head:hover {
 /*============= pos_banner_area css ===========*/
 .pos_banner_area {
   height: 60vh;
-  min-height: 500px; /*650px original*/
+  min-height: 520px; /*650px original*/
   display: flex;
   align-items: center;
   position: relative;
@@ -16594,8 +16598,8 @@ a .h_head:hover {
   content: "";
   width: 100%;
   height: 100%;
-  background: #303030;
-  opacity: 0.7;
+  background: #252525;
+  opacity: 0.5;
   position: absolute;
   top: 0;
   left: 0;
@@ -16620,9 +16624,9 @@ a .h_head:hover {
 .pos_banner_text h6 {
   font-size: 14px;
   line-height: 30px;
-  font-family: "Poppins", sans-serif;
+  font-family: 'Open Sans', sans-serif;
   text-transform: uppercase;
-  font-weight: 500;
+  font-weight: 600;
   letter-spacing: 4px;
   margin-bottom: 12px;
 }
@@ -16631,11 +16635,12 @@ a .h_head:hover {
 }
 .pos_banner_text h2 {
   font-size: 50px;
-  font-weight: 400;
+  font-weight: 300;
   color: #fff;
 }
 .pos_banner_text h2 span {
-  font-weight: 700;
+  font-weight: 300;
+  color: #98c11d;
 }
 .pos_banner_text .action_btn {
   margin-top: 40px;
@@ -16747,7 +16752,7 @@ a .h_head:hover {
   text-transform: uppercase;
 }
 .ticket_item h2 span {
-  font-weight: 500;
+  font-weight: 600;
   color: #7b7b93;
   font-size: 18px;
   line-height: 30px;
@@ -16763,7 +16768,7 @@ a .h_head:hover {
   color: #aaaabb;
   text-transform: uppercase;
   margin-bottom: 0;
-  font-weight: 500;
+  font-weight: 600;
 }
 .ticket_item + .ticket_item {
   margin-left: 8%;
@@ -16902,7 +16907,7 @@ a .h_head:hover {
   font-size: 34px;
   color: #2c2c51;
   line-height: 44px;
-  font-weight: 500;
+  font-weight: 600;
   margin-bottom: 50px;
 }
 .pos_features_content .h_features_item {
@@ -16926,7 +16931,7 @@ a .h_head:hover {
   color: #1ad90b;
 }
 .pos_features_content .h_features_item .h_head {
-  font-weight: 500;
+  font-weight: 700;
 }
 .pos_features_content .h_features_item p {
   color: #7b7b93;
@@ -17042,7 +17047,7 @@ a .h_head:hover {
 .pos_subscribe .btn_pos {
   background: #5f54fd;
   font-size: 16px;
-  font-weight: 500;
+  font-weight: 600;
   padding: 17px 37px;
   color: #fff;
 }
@@ -17063,7 +17068,7 @@ a .h_head:hover {
 .chat_content h2 {
   font-size: 34px;
   color: #2c2c51;
-  font-weight: 500;
+  font-weight: 600;
   line-height: 44px;
 }
 .chat_content .pos_btn {
@@ -17094,7 +17099,7 @@ a .h_head:hover {
   font-size: 26px;
   line-height: 36px;
   color: #404040;
-  font-weight: 500;
+  font-weight: 600;
 }
 .chat_info .pos_service_btn {
   margin-top: 32px;
@@ -17102,7 +17107,7 @@ a .h_head:hover {
 
 .pos_service_btn {
   font-size: 16px;
-  font-weight: 500;
+  font-weight: 600;
   color: #98c11d;
   line-height: 18px;
   display: inline-block;
@@ -17136,7 +17141,7 @@ a .h_head:hover {
 .pos_btn {
   font-size: 16px;
   color: #98c11d;
-  font-weight: 500;
+  font-weight: 600;
   padding: 9px 24px;
   border: 2px solid #C4DB7D;
   border-radius: 4px;
@@ -17241,7 +17246,7 @@ a .h_head:hover {
 }
 .support_help_area .support_item h4 {
   font-size: 24px;
-  font-weight: 500;
+  font-weight: 600;
   color: #051441;
   margin: 36px 0px 25px;
 }
@@ -17897,7 +17902,7 @@ a .h_head:hover {
 }
 .pp_testimonial_info .pp_testimonial_slider .item .media .media-body .author_ratting h5 {
   font-size: 20px;
-  font-weight: 500;
+  font-weight: 600;
   color: #fff;
 }
 .pp_testimonial_info .pp_testimonial_slider .item .media .media-body .author_ratting .rating i {
@@ -18133,7 +18138,7 @@ a .h_head:hover {
 }
 .h_analytices_features_item .h_analytices_content h2 {
   font-size: 34px;
-  font-weight: 500;
+  font-weight: 600;
   color: #2c2c51;
   margin-bottom: 25px;
 }
@@ -18159,7 +18164,7 @@ a .h_head:hover {
   margin-top: 20px;
 }
 .h_analytices_features_item .h_analytices_content ul li span {
-  font-weight: 500;
+  font-weight: 600;
   color: #2c2c51;
 }
 .h_analytices_features_item .h_analytices_content ul li:before {
@@ -18224,7 +18229,7 @@ a .h_head:hover {
 .h_action_area_three .h_action_content .author h6 {
   color: #fff;
   font-size: 18px;
-  font-weight: 500;
+  font-weight: 600;
   margin-bottom: 8px;
 }
 .h_action_area_three .h_action_content .author p {
@@ -18275,7 +18280,7 @@ a .h_head:hover {
   margin: 0 auto;
   font-size: 30px;
   color: #4e78f4;
-  font-weight: 500;
+  font-weight: 600;
   line-height: 80px;
 }
 .setup_inner .setup_item .line {
@@ -18328,7 +18333,7 @@ a .h_head:hover {
 }
 .analytices_price_item .p_head h5 {
   font-size: 20px;
-  font-weight: 500;
+  font-weight: 600;
   color: #2c2c51;
 }
 .analytices_price_item .p_head .rate {
@@ -18394,9 +18399,9 @@ a .h_head:hover {
 .analytices_logo {
   display: block;
   text-align: center;
-  padding: 25px;
+  padding: 10px;
   border-radius: 6px;
-  margin-top: 20px;
+  margin-top: 23px;
   transition: all 0.3s linear;
 }
 .analytices_logo:hover {
@@ -18550,7 +18555,7 @@ a .h_head:hover {
 }
 .security_banner_content .w_btn {
   font-size: 16px;
-  font-weight: 500;
+  font-weight: 600;
   color: #fff;
   margin-left: 30px;
 }
@@ -18624,7 +18629,7 @@ a .h_head:hover {
 .security_features_inner .s_features_item .item h6 {
   font-size: 24px;
   color: #2c2c51;
-  font-weight: 500;
+  font-weight: 600;
   margin-bottom: 0;
   padding-top: 26px;
 }
@@ -18715,7 +18720,7 @@ a .h_head:hover {
 .security_app_btn {
   margin-top: 30px;
   font-size: 16px;
-  font-weight: 500;
+  font-weight: 600;
   color: #7b7b93;
 }
 .security_app_btn i {
@@ -18837,7 +18842,7 @@ a .h_head:hover {
 }
 .event_banner_content h6 {
   font-size: 20px;
-  font-weight: 500;
+  font-weight: 600;
   color: #fcb747;
   margin-bottom: 18px;
 }
@@ -18895,7 +18900,7 @@ a .h_head:hover {
 .event_text h3 {
   font-size: 34px;
   line-height: 44px;
-  font-weight: 500;
+  font-weight: 600;
   color: #2c2c51;
   margin-bottom: 0;
 }
@@ -18971,7 +18976,7 @@ a .h_head:hover {
 .event_about_content h6 {
   color: #2c2c51;
   font-size: 18px;
-  font-weight: 500;
+  font-weight: 600;
   padding-top: 25px;
   margin-bottom: 12px;
 }
@@ -19085,7 +19090,7 @@ a .h_head:hover {
 }
 .event_team_slider .item h4 {
   font-size: 20px;
-  font-weight: 500;
+  font-weight: 600;
   color: #2c2c51;
   margin-bottom: 2px;
 }
@@ -19137,7 +19142,7 @@ a .h_head:hover {
   margin-bottom: 35px;
 }
 .event_features_item h5 {
-  font-weight: 500;
+  font-weight: 600;
   font-size: 20px;
   color: #2c2c51;
   margin-bottom: 18px;
@@ -19152,7 +19157,7 @@ a .h_head:hover {
 }
 .event_features_item .e_features_btn {
   font-size: 16px;
-  font-weight: 500;
+  font-weight: 600;
   color: #2c2c51;
   display: inline-block;
   transition: color 0.2s linear;
@@ -19288,7 +19293,7 @@ a .h_head:hover {
   padding-left: 70px;
 }
 .event_tab_content .media .media-body .h_head {
-  font-weight: 500;
+  font-weight: 700;
   margin-bottom: 3px;
 }
 .event_tab_content .media .media-body span {
@@ -19692,7 +19697,7 @@ a .h_head:hover {
   border-radius: 4px;
   background: #e2f4e8;
   font-size: 14px;
-  font-weight: 500;
+  font-weight: 600;
   text-transform: uppercase;
   display: inline-block;
   color: #0ec123;
@@ -19840,7 +19845,7 @@ a .h_head:hover {
 /*============= chat_features_area css ===========*/
 .chat_features_area {
   padding: 120px 0px;
-  font-family: "Poppins", sans-serif;
+  font-family: 'Open Sans', sans-serif;
 }
 
 .chat_features_img {
@@ -20135,7 +20140,7 @@ a .h_head:hover {
   background-color: #5e2ced;
   box-shadow: 0px 20px 50px 0px rgba(123, 78, 245, 0.3);
   border-radius: 25px;
-  font-weight: 500;
+  font-weight: 600;
   padding: 11px 41px;
   display: inline-block;
   transition: all 0.3s linear;
@@ -20175,7 +20180,7 @@ a .h_head:hover {
   font-size: 70px;
   line-height: 60px;
   font-weight: 700;
-  font-family: "Poppins", sans-serif;
+  font-family: 'Open Sans', sans-serif;
   background-image: -moz-linear-gradient(70deg, #3a2bdc 18%, #8545eb 51%, #cf5ff9 68%);
   background-image: -webkit-linear-gradient(70deg, #3a2bdc 18%, #8545eb 51%, #cf5ff9 68%);
   background-image: -ms-linear-gradient(70deg, #3a2bdc 18%, #8545eb 51%, #cf5ff9 68%);
@@ -20184,7 +20189,7 @@ a .h_head:hover {
   margin-bottom: 25px;
 }
 .section_title .number sup {
-  font-weight: 500;
+  font-weight: 600;
   background-image: -moz-linear-gradient(70deg, #3a2bdc 18%, #8545eb 51%, #cf5ff9 68%);
   background-image: -webkit-linear-gradient(70deg, #3a2bdc 18%, #8545eb 51%, #cf5ff9 68%);
   background-image: -ms-linear-gradient(70deg, #3a2bdc 18%, #8545eb 51%, #cf5ff9 68%);
@@ -20195,7 +20200,7 @@ a .h_head:hover {
 .section_title h2 {
   font-size: 40px;
   line-height: 50px;
-  font-weight: 600;
+  font-weight: 700;
   margin-bottom: 15px;
   color: #051441;
 }
@@ -20232,10 +20237,10 @@ a .h_head:hover {
   width: 100%;
 }
 .banner_text .typed {
-  font-weight: 500;
+  font-weight: 600;
 }
 .banner_text .typed-cursor {
-  font-weight: 500;
+  font-weight: 600;
 }
 
 .demo_features_area .features_item {
@@ -20286,7 +20291,7 @@ a .h_head:hover {
 .filtering_demos .nav-tabs .nav-item {
   border: 0px;
   padding: 0px;
-  font-weight: 500;
+  font-weight: 600;
   font-size: 17px;
   color: #2c2c51;
   position: relative;
@@ -20362,7 +20367,7 @@ a .h_head:hover {
   right: -10px;
   padding: 0px 13px;
   color: #fff;
-  font-weight: 500;
+  font-weight: 600;
 }
 .portfolio-image .img {
   transition: all 0.3s linear;
@@ -20375,7 +20380,7 @@ a .h_head:hover {
 }
 .portfolio-image h6 {
   font-size: 18px;
-  font-weight: 500;
+  font-weight: 600;
   margin-top: 40px;
   transition: color 0.2s linear;
   margin-bottom: 0;
@@ -20553,7 +20558,7 @@ a .h_head:hover {
   font-size: 16px;
   line-height: 25px;
   color: #5e2ced;
-  font-weight: 500;
+  font-weight: 600;
   border: 2px solid #b196fa;
   border-radius: 45px;
   padding: 10px 39px;
@@ -20702,7 +20707,7 @@ a .h_head:hover {
 .plugin_area .plugin_sub_title {
   color: #2c2c51;
   font-size: 30px;
-  font-weight: 500;
+  font-weight: 600;
   line-height: 54px;
   margin-bottom: 55px;
 }
@@ -20731,7 +20736,7 @@ a .h_head:hover {
 .plugin_item p {
   font-size: 14px;
   color: #5e2ced;
-  font-weight: 500;
+  font-weight: 600;
   margin-bottom: 0;
   cursor: pointer;
   transition: all 0.2s linear;
@@ -20788,7 +20793,7 @@ a .h_head:hover {
 .shop_area .u_content ul li {
   font-size: 16px;
   color: #7b7b93;
-  font-weight: 500;
+  font-weight: 600;
   position: relative;
   padding-left: 25px;
 }
@@ -20897,7 +20902,7 @@ a .h_head:hover {
   top: 11px;
 }
 .blog_slider .blog_item .round span {
-  font-weight: 500;
+  font-weight: 600;
   font-size: 20px;
   line-height: 25px;
   display: block;
@@ -21519,7 +21524,7 @@ a .h_head:hover {
 }
 .responsive_content .u_content .item h5 {
   font-size: 18px;
-  font-weight: 500;
+  font-weight: 600;
   margin-bottom: 15px;
 }
 .responsive_content .u_content .item p {
@@ -21642,7 +21647,7 @@ a .h_head:hover {
   margin-bottom: 15px;
 }
 .f_widget.about-widget .f_list li a {
-  font: 300 16px/20px "Poppins", sans-serif;
+  font: 300 16px/20px 'Open Sans', sans-serif;
   color: #677294;
   position: relative;
   transition: color 0.2s linear;
@@ -21652,7 +21657,7 @@ a .h_head:hover {
   content: "";
   width: 0;
   height: 1px;
-  background: #6754e2;
+  background: #98c11d;
   right: 0;
   left: auto;
   bottom: 0;
@@ -21673,7 +21678,7 @@ a .h_head:hover {
   margin-top: 40px;
 }
 .f_subscribe .form-control {
-  font: 300 14px "Poppins", sans-serif;
+  font: 300 14px 'Open Sans', sans-serif;
   color: #333;
   border: 1px solid #e2e7f3;
   border-radius: 3px;
@@ -22229,7 +22234,7 @@ a .h_head:hover {
   padding: 27px 0px;
 }
 .footer_nine_bottom p {
-  font: 300 14px "Poppins", sans-serif;
+  font: 300 14px 'Open Sans', sans-serif;
   color: #7f88a6;
 }
 .footer_nine_bottom p a {
@@ -22245,7 +22250,7 @@ a .h_head:hover {
   padding: 0px;
   -webkit-box-shadow: none;
   box-shadow: none;
-  font: 400 14px "Poppins", sans-serif;
+  font: 400 14px 'Open Sans', sans-serif;
   color: #7f88a6;
 }
 .footer_nine_bottom .flag_selector .dropdown-toggle:after {

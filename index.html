@@ -27,98 +27,148 @@
     <link rel="stylesheet" href="css/responsive.css">
     <link rel="stylesheet" href="css/custom.css">
 
+  <!-- Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-54943444-1"></script>
+    <script>
+    	window.dataLayer = window.dataLayer || [];
+    	function gtag() { dataLayer.push(arguments); }
+    	gtag('js', new Date());
+    	gtag('config', 'UA-54943444-1');
+    </script>
+
+  <!-- Smartlook -->
+    <script type='text/javascript'>
+      window.smartlook||(function(d) {
+      var o=smartlook=function(){ o.api.push(arguments)},h=d.getElementsByTagName('head')[0];
+      var c=d.createElement('script');o.api=new Array();c.async=true;c.type='text/javascript';
+      c.charset='utf-8';c.src='https://rec.smartlook.com/recorder.js';h.appendChild(c);
+      })(document);
+      smartlook('init', '6b0f6f9e44b346be2b556219188542c5fcaf5aa7');
+    </script>
+
+  <!-- Freshchat -->
+    <script>
+    	function initFreshChat() {
+    	window.fcWidget.init({
+    	token: "c5e7a05d-7dba-418f-936d-7091a4600b09",
+    	host: "https://wchat.freshchat.com"
+    	});
+    	}
+    	function initialize(i,t){var e;i.getElementById(t)?initFreshChat():((e=i.createElement("script")).id=t,e.async=!0,e.src="https://wchat.freshchat.com/js/widget.js",e.onload=initFreshChat,i.head.appendChild(e))}
+    	function initiateCall(){initialize(document,"freshchat-js-sdk")}window.addEventListener?window.addEventListener("load",initiateCall,!1):window.attachEvent("load",initiateCall,!1);
+  	</script>
+
+  <!-- Píxel Facebook -->
+    <script>
+    	!function(f,b,e,v,n,t,s)
+    	{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+    	n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+    	if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+    	n.queue=[];t=b.createElement(e);t.async=!0;
+    	t.src=v;s=b.getElementsByTagName(e)[0];
+    	s.parentNode.insertBefore(t,s)}(window, document,'script',
+    	'https://connect.facebook.net/en_US/fbevents.js');
+    	fbq('init', '235069117186791');
+    	fbq('track', 'PageView');
+  	</script>
 
 
 </head>
 
 <body data-spy="scroll" data-target="header" data-offset="80">
-    <div class="body_wrapper">
-      <header class="header_area header_area_three">
-          <nav class="navbar navbar-expand-lg menu_one">
-              <div class="container">
-                  <a class="navbar-brand" href="#"><img src="img/logo.png" srcset="img/logo2x.png 2x" alt="logo"></a>
-                  <a class="btn_get btn_hover mobile_btn ml-auto" href="#get-app">Sign In</a>
-                  <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                      <span class="menu_toggle">
-                          <span class="hamburger">
-                              <span></span>
-                              <span></span>
-                              <span></span>
-                          </span>
-                          <span class="hamburger-cross">
-                              <span></span>
-                              <span></span>
-                          </span>
-                      </span>
-                  </button>
+  <div class="body_wrapper">
+    <header class="header_area header_area_three">
+      <nav class="navbar navbar-expand-lg menu_one">
+        <div class="container">
+          <a class="navbar-brand" href="#"><img src="img/logo.png" srcset="img/logo2x.png 2x" alt="logo"></a>
+          <a class="btn_get btn_hover mobile_btn ml-auto" href="#get-app"></a>
+          <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="menu_toggle">
+              <span class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+              </span>
+              <span class="hamburger-cross">
+                <span></span>
+                <span></span>
+              </span>
+            </span>
+          </button>
 
-                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                      <ul class="navbar-nav menu pl_120 ml-auto mr-5">
-                          <li class="dropdown submenu nav-item">
-                            <a title="Pages" class="dropdown-toggle nav-link" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" href="#">
-                                Nosotros <i class="fas fa-chevron-down f_size_11 pl-1"></i>
-                            </a>
-                            <ul class="dropdown-menu">
-                                    <li class="nav-item"><a href="#" class="nav-link">Vitals</a></li>
-                                    <li class="nav-item"><a href="#" class="nav-link">Medipunto</a></li>
-                                    <li class="nav-item"><a href="#" class="nav-link">Pharol</a></li>
-                            </ul>
-                          </li>
-                          <li class="dropdown submenu nav-item">
-                              <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                  Empresas <i class="fas fa-chevron-down f_size_11 pl-1"></i>
-                              </a>
-                              <ul class="dropdown-menu">
-                                      <li class="nav-item"><a href="#" class="nav-link">Prestadores de Salud</a></li>
-                                      <li class="nav-item"><a href="#" class="nav-link">Aseguradoras</a></li>
-                                      <li class="nav-item"><a href="#" class="nav-link">Colaboradores</a></li>
-                              </ul>
-                          </li>
-
-                      </ul>
-                      <a class="btn_get btn_get_two-secondary btn_hover hidden-sm" href="#">Registro</a>
-                      <a class="btn_get btn_get_two btn_hover hidden-sm" href="#">Login</a>
-                  </div>
-              </div>
-          </nav>
-      </header>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav menu pl_120 ml-auto mr-5">
+              <li class="dropdown submenu nav-item">
+                <a title="Pages" class="dropdown-toggle nav-link uppercase" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" href="#">
+                  Nosotros <i class="fas fa-chevron-down f_size_11 pl-1"></i>
+                </a>
+                <ul class="dropdown-menu">
+                  <li class="nav-item"><a href="https://www.mediclic.cl/nosotros-especialistas-en-telemedicina-en-chile/" target="_blank" class="nav-link">Quiénes somos</a></li>
+                  <li class="nav-item"><a href="https://www.mediclic.cl/nosotros-especialistas-en-telemedicina-en-chile/" target="_blank" class="nav-link">Nuestros médicos</a></li>
+                  <li class="nav-item"><a href="https://www.mediclic.cl/landings/saludpreventiva/" target="_blank" class="nav-link">Vitals</a></li>
+                  <li class="nav-item"><a href="https://bit.ly/3dQXAhC" target="_blank" class="nav-link">Medipunto</a></li>
+                  <li class="nav-item"><a href="https://bit.ly/31sLeJy" target="_blank" class="nav-link">Blog</a></li>
+                </ul>
+              </li>
+              <li class="dropdown submenu nav-item">
+                <a title="Pages" class="dropdown-toggle nav-link uppercase" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" href="#">
+                  Empresas <i class="fas fa-chevron-down f_size_11 pl-1"></i>
+                </a>
+                <ul class="dropdown-menu">
+                  <li class="nav-item"><a href="https://bit.ly/33HigER" target="_blank" class="nav-link">Prestadores de Salud</a></li>
+                  <li class="nav-item"><a href="https://www.mediclic.cl/landings/saludpreventiva/" target="_blank" class="nav-link">Salud Preventiva</a></li>
+                  <li class="nav-item"><a href="https://bit.ly/3dqMYVS" target="_blank" class="nav-link">Municipios</a></li>
+                  <li class="nav-item"><a href="https://bit.ly/31sLeJy" target="_blank" class="nav-link">Jornadas de Salud</a></li>
+                  <li class="nav-item"><a href="https://bit.ly/2Lu71aD" target="_blank" class="nav-link">Nutricontigo</a></li>
+                </ul>
+              </li>
+              
+            </ul>
+            <a class="btn_get btn_get_two-secondary btn_hover hidden-sm uppercase" href="https://bit.ly/2yIEgUZ" target="_blank">Registro</a>
+            <a class="btn_get btn_get_two btn_hover hidden-sm uppercase" href="https://bit.ly/3fHfZPz" target="_blank">Login</a>
+          </div>
+        </div>
+      </nav>
+    </header>
 
       <section class="pos_banner_area">
           <div class="pos_slider owl-carousel">
-            <!-- <div class="pos_banner_item">
+            <div class="pos_banner_item" style="background: url(img/pos/banner1.jpg); background-position: center center; background-size: cover;">
               <div class="fullscreen-bg">
-                  <video loop muted autoplay poster="img/pos/background2.jpg" class="fullscreen-bg__video">
-                    <source src="img/pos/banner1.mp4" type="video/mp4">
+                  <video loop muted autoplay playsinline poster="img/pos/banner1.jpg" class="fullscreen-bg__video">
                     <source src="img/pos/banner1.webm" type="video/webm">
+                    <source src="img/pos/banner1.mp4" type="video/mp4">
                     <source src="img/pos/banner1.ogv" type="video/ogg">
                   </video>
               </div>
             </div>
-            <div class="pos_banner_item">
+            <div class="pos_banner_item" style="background: url(img/pos/banner2.jpg); background-position: center center; background-size: cover;">
               <div class="fullscreen-bg">
-                  <video loop muted autoplay poster="img/videoframe.jpg" class="fullscreen-bg__video">
+                  <video loop muted autoplay poster="img/pos/banner2.jpg" class="fullscreen-bg__video">
+                    <source src="img/pos/banner2.webm" type="video/webm">
                     <source src="img/pos/banner2.mp4" type="video/mp4">
+                    <source src="img/pos/banner2.ogv" type="video/ogg">
                   </video>
               </div>
             </div>
-            <div class="pos_banner_item">
+            <div class="pos_banner_item" style="background: url(img/pos/banner3.jpg); background-position: center center; background-size: cover;">
               <div class="fullscreen-bg">
-                  <video loop muted autoplay poster="img/videoframe.jpg" class="fullscreen-bg__video">
+                  <video loop muted autoplay poster="img/pos/banner3.jpg" class="fullscreen-bg__video">
+                    <source src="img/pos/banner3.webm" type="video/webm">
                     <source src="img/pos/banner3.mp4" type="video/mp4">
+                    <source src="img/pos/banner3.ogv" type="video/ogg">
                   </video>
               </div>
-            </div> -->
-              <div class="pos_banner_item" style="background: url(img/pos/banner1.gif); background-position: center;"></div>
-              <div class="pos_banner_item" style="background: url(img/pos/banner2.gif); background-position: center;"></div>
-              <div class="pos_banner_item" style="background: url(img/pos/banner3.gif); background-position: center;"></div>
+            </div>
+            <div class="pos_banner_item" style="background: url(img/pos/banner4.jpg); background-position: center center; background-size: cover;"> </div>
           </div>
           <div class="container">
               <div class="pos_banner_text text-center">
                   <h6>Transformamos la manera en que te ocupas de tu salud</h6>
-                  <h2>Cuenta con una plataforma médica <span class="typed"></span></h2>
+                  <h2 class="uppercase">Te ofrecemos atención médica <span class="typed"></span></h2>
                   <div class="action_btn d-flex align-items-center justify-content-center wow fadeInLeft" data-wow-delay="0.6s">
                       <a href="#mediclic" class="software_banner_btn">Más información</a>
-                      <a href="https://www.youtube.com/watch?v=3Dz8l3j21i4" class="video_btn popup-youtube">
+                      <a href="https://www.youtube.com/watch?v=ztJkq3UyliA" class="video_btn popup-youtube">
                           <div class="icon"><i class="fas fa-play"></i></div><span>Ver video</span>
                       </a>
                   </div>
@@ -147,7 +197,7 @@
             <div class="container">
                 <div class="row row_reverse align_items_center">
                     <div class="col-lg-7">
-                        <div class="onepage_about_img text-right wow fadeInUp px-lg-5"><img src="img/pos/vitals2.gif" data-parallax='{"y": -70}' alt="f_img">
+                        <div class="onepage_about_img text-right wow fadeInUp px-lg-5"><img src="img/pos/vitals.gif" data-parallax='{"y": -70}' alt="f_img">
                         </div>
                     </div>
                     <div class="col-lg-5">
@@ -159,16 +209,16 @@
                         </div>
                         <div class="onepage_about_content pb-5">
                             <div class="wow fadeInUp" data-wow-delay="400ms">
-                              <h3 class="wow fadeInUp f_600 color-60 mb-2 h_head">¿Cómo funciona?</h3>
-                                <p class="color-70">En 30 segundos puedes medir tus signos vitales desde la cámara de tu smartphone y ver al doctor para conversar sobre tus resultados.</p>
+                              <h3 class="wow fadeInUp f_700 color-60 mb-2 h_head">¿Cómo funciona?</h3>
+                                <p class="color-70">En 30 segundos puedes medir tus signos vitales con la cámara de tu smartphone y ver al doctor para conversar sobre tus resultados.</p>
                             </div>
                         </div>
                         <div class="onepage_about_content pb-5">
-                            <h3 class="wow fadeInUp f_600 color-60 mb-2 h_head" data-wow-delay="200ms">¿Quieres probarla?</h3>
+                            <h3 class="wow fadeInUp f_700 color-60 mb-2 h_head" data-wow-delay="200ms">¿Quieres probarla?</h3>
                             <div class="wow fadeInUp pt-3" data-wow-delay="400ms">
 
-                              <a href="https://play.google.com/store/apps/details?id=com.mediclic.mediclic1&hl=es_CL" class="app_btn-green app_btn_two Cus_getapp f_size_18 mr-3 my-1 wow fadeInLeft" data-wow-delay="0.5s" style="visibility: hidden; animation-delay: 0.5s; animation-name: none; line-height:30px"><i class="fab fa-google-play f_size_22 mr-2"></i>Google Play</a>
-                              <a href="https://apps.apple.com/cl/app/mediclic/id1143276587" class="app_btn-green app_btn_two f_size_18 my-1 l_height28 wow fadeInLeft" data-wow-delay="0.6s" style="visibility: hidden; animation-delay: 0.6s; animation-name: none;"><i class="fab fa-apple f_size_22 mr-2"></i>App Store</a>
+                              <a href="https://play.google.com/store/apps/details?id=com.mediclic.mediclic1&hl=es_CL" target="_blank" class="app_btn-green app_btn_two Cus_getapp f_size_18 mr-3 my-1 wow fadeInLeft" data-wow-delay="0.5s" style="visibility: hidden; animation-delay: 0.5s; animation-name: none; line-height:30px"><i class="fab fa-google-play f_size_22 mr-2"></i>Google Play</a>
+                              <a href="https://apps.apple.com/cl/app/mediclic/id1143276587" target="_blank" class="app_btn-green app_btn_two f_size_18 my-1 l_height28 wow fadeInLeft" data-wow-delay="0.6s" style="visibility: hidden; animation-delay: 0.6s; animation-name: none;"><i class="fab fa-apple f_size_22 mr-2"></i>App Store</a>
                             </div>
                         </div>
                     </div>
@@ -219,39 +269,39 @@
                       <!-- Fin Mobile inner parte 1 -->
 
                         <div class="elemator_inner">
-                            <div class="elemetor_img one" data-parallax='{"x": 0, "y": -15, "rotateZ":0}'>
-                                <div class="wow fadeIn">
+                            <div class="elemetor_img one" data-parallax='{"x": 0, "y": -20, "rotateZ":0}'>
+                                <div class="wow fadeInUp" data-wow-delay="0.5s">
                                   <div class="elemator_inner_item">
                                     <img src="img/telemedicina/medicina-general.png" class="elemetor_img-icon" alt="">
                                     <p>Medicina <br>General</p>
                                   </div>
                                 </div>
                             </div>
-                            <div class="elemetor_img two" data-parallax='{"x": 0, "y": -15, "rotateZ":0}'>
-                                <div class="wow fadeIn" data-wow-delay="0.1s">
+                            <div class="elemetor_img two" data-parallax='{"x": 0, "y": -20, "rotateZ":0}'>
+                                <div class="wow fadeInUp" data-wow-delay="0.7s">
                                   <div class="elemator_inner_item">
                                     <img src="img/telemedicina/especialista.png" class="elemetor_img-icon" alt="">
                                     <p>Especialistas</p>
                                   </div>
                                 </div>
                             </div>
-                            <div class="elemetor_img four" data-parallax='{"x": 0, "y": -22, "rotateZ":0}'>
-                                <div class="wow fadeInUp" data-wow-delay="0.4s">
+                            <div class="elemetor_img four" data-parallax='{"x": 0, "y": -17, "rotateZ":0}'>
+                                <div class="wow fadeInUp" data-wow-delay="0.9s">
                                   <div class="elemator_inner_item">
                                     <img src="img/telemedicina/recetas-medicas.png" class="elemetor_img-icon" alt="">
                                     <p>Recetas <br> médicas</p>
                                   </div>
                                 </div>
                             </div>
-                            <div class="elemetor_img five" data-parallax='{"x": 0, "y": -25, "rotateZ":0}'>
-                                <div class="wow fadeInUp" data-wow-delay="0.5s">
+                            <div class="elemetor_img five" data-parallax='{"x": 0, "y": -30, "rotateZ":0}'>
+                                <div class="wow fadeInUp" data-wow-delay="1.1s">
                                   <div class="elemator_inner_item">
                                     <img src="img/telemedicina/recetas-magistrales.png" class="elemetor_img-icon" alt="">
                                     <p>Recetas <br> magistrales</p>
                                   </div>
                                 </div>
                             </div>
-                            <div class="elemetor_img seven" data-parallax='{"x": 0, "y": -30, "rotateZ":0}'>
+                            <div class="elemetor_img seven" data-parallax='{"x": 0, "y": -35, "rotateZ":0}'>
                                 <div class="wow fadeInUp">
                                   <div class="elemator_inner_item">
                                     <img src="img/telemedicina/soporte.png" class="elemetor_img-icon" alt="">
@@ -259,40 +309,40 @@
                                   </div>
                                 </div>
                             </div>
-                            <div class="elemetor_img eight" data-parallax='{"x": 0, "y": -15, "rotateZ":0}'>
-                                <div class="wow fadeInUp" data-wow-delay="0.2s">
+                            <div class="elemetor_img eight" data-parallax='{"x": 0, "y": -20, "rotateZ":0}'>
+                                <div class="wow fadeInUp" data-wow-delay="0.8s">
                                   <div class="elemator_inner_item">
                                     <img src="img/telemedicina/web-app.png" class="elemetor_img-icon" alt="">
                                     <p>Desde web <br>o App</p>
                                   </div>
                                 </div>
                             </div>
-                            <div class="elemetor_img nine" data-parallax='{"x": 0, "y": -8, "rotateZ":0}'>
-                                <div class="wow fadeInUp" data-wow-delay="0.4s">
+                            <div class="elemetor_img nine" data-parallax='{"x": 0, "y": -15, "rotateZ":0}'>
+                                <div class="wow fadeInUp" data-wow-delay="1.0s">
                                   <div class="elemator_inner_item">
                                     <img src="img/telemedicina/ordenes-examen.png" class="elemetor_img-icon" alt="">
                                     <p>Órdenes de <br>exámenes</p>
                                   </div>
                                 </div>
                             </div>
-                            <div class="elemetor_img ten" data-parallax='{"x": 0, "y": 12, "rotateZ":0}'>
-                                <div class="wow fadeInUp" data-wow-delay="0.5s">
+                            <div class="elemetor_img ten" data-parallax='{"x": 0, "y": 27, "rotateZ":0}'>
+                                <div class="wow fadeInUp" data-wow-delay="1.2s">
                                   <div class="elemator_inner_item">
                                     <img src="img/telemedicina/licencia-medica.png" class="elemetor_img-icon" alt="">
                                     <p>Licencias <br>médicas</p>
                                   </div>
                                 </div>
                             </div>
-                            <div class="elemetor_img eleven" data-parallax='{"x": 0, "y": 22, "rotateZ":0}'>
-                                <div class="wow fadeInUp" data-wow-delay="0.6s">
+                            <div class="elemetor_img eleven" data-parallax='{"x": 0, "y": 37, "rotateZ":0}'>
+                                <div class="wow fadeInUp" data-wow-delay="1.3s">
                                   <div class="elemator_inner_item">
                                     <img src="img/telemedicina/calendar.png" class="elemetor_img-icon" alt="">
                                     <p>365 días <br>del año</p>
                                   </div>
                                 </div>
                             </div>
-                            <div class="elemetor_img r_one" data-parallax='{"x": 0, "y": 5, "rotateZ":0}'>
-                                <div class="wow fadeInUp" data-wow-delay="0.1s">
+                            <div class="elemetor_img r_one" data-parallax='{"x": 0, "y": 20, "rotateZ":0}'>
+                                <div class="wow fadeInUp" data-wow-delay="0.8s">
                                   <div class="elemator_inner_item">
                                     <img src="img/telemedicina/certificacion.png" class="elemetor_img-icon" alt="">
                                     <p>Certificados <br>médicos</p>
@@ -341,20 +391,17 @@
                     </div>
                 </section>
 
-
       <section class="action_area_two video_background-img sec_pad-80">
           <div class="container">
                   <div class="d-flex align-items-start justify-content-center text-center">
                       <div class="action_content pb-5">
-                          <h2 class="f_p f_size_30 l_height45 f_600 w_color">Experiencia de salud digital 360°</h2>
-                          <p class="f_400 f_size_16 w_color mb-5">Conoce los servicios que ofrecemos para cuidar tu salud.</p>
-                          <a class="popup-youtube video_icon mb-5" href="https://www.youtube.com/watch?v=3Dz8l3j21i4"><i class="arrow_triangle-right"></i></a>
+                          <h2 class="f_p f_size_30 l_height45 f_700 w_color">Experiencia 360</h2>
+                          <p class="f_400 f_size_16 w_color mb-5">Conoce el servicio que ofrecemos para cuidar tu salud.</p>
+                          <a class="popup-youtube video_icon mb-5" href="https://www.youtube.com/watch?v=ztJkq3UyliA"><i class="arrow_triangle-right"></i></a>
                       </div>
                   </div>
           </div>
       </section>
-
-
 
       <section class="faq_solution_area features_area_pad" style="padding-bottom:120px!important" id="faq">
                 <ul class="memphis-parallax hidden-xs hidden-sm list-unstyled">
@@ -381,44 +428,44 @@
                     <div class="row flex-row">
                         <div class="col-lg-6">
                           <div class="chat_features_img chat_features_img_two pt-5">
-                            <img class="p_absoulte dot_bg" src="img/home-chat/dot.png" alt="">
+                            <img class="p_absoulte dot_bg" src="img/pos/dot.png" alt="">
                             <img class="chat_one" data-parallax='{"x": 20, "y": -40}' src="img/pos/mediclic_consulta_1.jpg" alt="">
-                            <img data-parallax='{"x": 0, "y": 40}' class="p_absoulte chat_two" src="img/pos/mediclic_consulta_2.jpg" alt="">
+                            <img data-parallax='{"x": 0, "y": 40}' class="p_absoulte chat_two" src="img/pos/mediclic_consulta_2b.jpg" alt="">
                           </div>
                         </div>
-                        <div class="col-lg-6 d_flex">
-                          <div class="row">
-                            <div class="col-6 col-md-7 my-lg-2 wow fadeInRight" data-wow-delay="200ms">
+                        <div class="col-lg-6 d_flex px-lg-5 align-self-center">
+                          <div class="row px-lg-4">
+                            <div class="col-6 col-md-7 my-lg-2 wow fadeInRight" data-wow-delay="0.3s">
                               <div class="payment_features_item text-center" data-parallax='{"x": 15}'>
                                 <h4 class="mb-0">Medicina general</h4>
                               </div>
                             </div>
-                            <div class="col-6 col-md-5 my-lg-2 wow fadeInRight" data-wow-delay="270ms">
+                            <div class="col-6 col-md-5 my-lg-2 wow fadeInRight" data-wow-delay="0.6s">
                               <div class="payment_features_item text-center" data-parallax='{"x": 15}'>
                                 <h4 class="mb-0">Psicología</h4>
                               </div>
                             </div>
-                            <div class="col-6 col-md-5 my-lg-2 wow fadeInLeft" data-wow-delay="300ms">
+                            <div class="col-6 col-md-5 my-lg-2 wow fadeInLeft" data-wow-delay="0.9s">
                               <div class="payment_features_item text-center" data-parallax='{"x": -15}'>
                                 <h4 class="mb-0">Pediatría</h4>
                               </div>
                             </div>
-                            <div class="col-6 col-md-7 my-lg-2 wow fadeInLeft" data-wow-delay="370ms">
+                            <div class="col-6 col-md-7 my-lg-2 wow fadeInLeft" data-wow-delay="1.2s">
                               <div class="payment_features_item text-center" data-parallax='{"x": -15}'>
                                 <h4 class="mb-0">Geriatría</h4>
                               </div>
                             </div>
-                            <div class="col-6 col-md-7 my-lg-2 wow fadeInRight" data-wow-delay="400ms">
+                            <div class="col-6 col-md-7 my-lg-2 wow fadeInRight" data-wow-delay="1.5s">
                               <div class="payment_features_item text-center" data-parallax='{"x": 15}'>
                                 <h4 class="mb-0">Psiquiatría</h4>
                               </div>
                             </div>
-                            <div class="col-6 col-md-5 my-lg-2 wow fadeInRight" data-wow-delay="470ms">
+                            <div class="col-6 col-md-5 my-lg-2 wow fadeInRight" data-wow-delay="1.8s">
                               <div class="payment_features_item text-center" data-parallax='{"x": 15}'>
                                 <h4 class="mb-0">Nutrición</h4>
                               </div>
                             </div>
-                            <div class="col-6 col-lg-4 my-lg-2 mx-auto wow fadeInLeft" data-wow-delay="500ms">
+                            <div class="col-6 col-lg-4 my-lg-2 mx-auto wow fadeInLeft" data-wow-delay="1.8s">
                               <div class="payment_features_item text-center" data-parallax='{"x": 15}'>
                                 <h4 class="mb-0">y más...</h4>
                               </div>
@@ -429,14 +476,13 @@
                 </div>
       </section>
 
-
         <section class="action_area_two collab_background-img">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-8 d-flex align-items-center">
                         <div class="action_content mb-5">
-                            <h2 class="f_600 f_size_30 l_height45 w_color mb-0 wow fadeInLeft" data-wow-delay="0.3s">¿Quieres cuidar de manera integral <br class="d-none d-lg-block"> a tus colaboradores?</h2>
-                            <a href="https://www.mediclic.cl/landings/saludpreventiva/" class="btn_three btn_hover wow fadeInLeft" data-wow-delay="0.5s">Conoce cómo hacerlo</a>
+                            <h2 class="f_700 f_size_30 l_height45 w_color mb-0 wow fadeInLeft" data-wow-delay="0.3s">¿Quieres cuidar de manera integral <br class="d-none d-lg-block"> a tus colaboradores?</h2>
+                            <a href="https://www.mediclic.cl/landings/saludpreventiva/" target="_blank" class="btn_three btn_hover wow fadeInLeft" data-wow-delay="0.5s">Conoce cómo hacerlo</a>
                         </div>
                     </div>
 
@@ -451,7 +497,7 @@
                             <div class="hosting_title analytices_title">
                                 <h2 class="wow fadeInUp color-40" data-wow-delay="0.3s"><span class="color-40">Quienes</span>confían en nosotros</h2>
                                 <p class="wow fadeInUp color-70" data-wow-delay="0.3s">Con una experiencia 360 de salud digital, somos un ecosistema que se vincula con cualquier rubro o tipo de empresa.</p>
-                                <a href="#" class="er_btn er_btn_two">Más información</a>
+                                <a href="https://www.mediclic.cl/landings/saludpreventiva/" target="_blank" class="er_btn er_btn_two">Más información</a>
                             </div>
                         </div>
                     </div>
@@ -466,105 +512,105 @@
                           <div class="carousel-item active" data-interval="10000">
                             <div class="row">
                               <div class="col-md-3 col-sm-4 col-6">
-                                  <a href="https://www.walmartchile.cl/" class="analytices_logo"><img src="img/clientes/walmart.png" class="img-fluid" alt="Walmart Chile"></a>
+                                  <div class="analytices_logo"><img src="img/clientes/walmart.png" class="img-fluid" alt="Walmart Chile"></div>
                               </div>
                                 <div class="col-md-3 col-sm-4 col-6">
-                                    <a href="https://www.codelco.com/" class="analytices_logo"><img src="img/clientes/codelco.png" class="img-fluid" alt="Codelco"></a>
+                                    <div class="analytices_logo"><img src="img/clientes/codelco.png" class="img-fluid" alt="Codelco"></div>
                                 </div>
                                 <div class="col-md-3 col-sm-4 col-6">
-                                    <a href="https://www.munistgo.cl/" class="analytices_logo"><img src="img/clientes/santiago.png" class="img-fluid" alt="Municipalidad de Santiago"></a>
+                                    <div class="analytices_logo"><img src="img/clientes/santiago.png" class="img-fluid" alt="Municipalidad de Santiago"></div>
                                 </div>
                                 <div class="col-md-3 col-sm-4 col-6">
-                                    <a href="https://www.lascondes.cl/" class="analytices_logo"><img src="img/clientes/las-condes.png" class="img-fluid" alt="Municipalidad de Las Condes"></a>
+                                    <div class="analytices_logo"><img src="img/clientes/las-condes.png" class="img-fluid" alt="Municipalidad de Las Condes"></div>
                                 </div>
                                 <div class="col-md-3 col-sm-4 col-6">
-                                    <a href="http://www.colmena.cl/" class="analytices_logo"><img src="img/clientes/colmena.png" class="img-fluid" alt="Colmena"></a>
+                                    <div class="analytices_logo"><img src="img/clientes/colmena.png" class="img-fluid" alt="Colmena"></div>
                                 </div>
                                 <div class="col-md-3 col-sm-4 col-6">
-                                    <a href="https://w3.metlife.cl/" class="analytices_logo"><img src="img/clientes/metlife.png" class="img-fluid" alt="MetLife"></a>
+                                    <div class="analytices_logo"><img src="img/clientes/metlife.png" class="img-fluid" alt="MetLife"></div>
                                 </div>
                                 <div class="col-md-3 col-sm-4 col-6">
-                                    <a href="https://www.nestle.cl/" class="analytices_logo"><img src="img/clientes/nestle.png" class="img-fluid" alt="Nestlé"></a>
+                                    <div class="analytices_logo"><img src="img/clientes/nestle.png" class="img-fluid" alt="Nestlé"></div>
                                 </div>
                                 <div class="col-md-3 col-sm-4 col-6">
-                                    <a href="http://www.torax.cl/" class="analytices_logo"><img src="img/clientes/instituto-nacional-torax.png" class="img-fluid" alt="Instituto Nacional del Tórax"></a>
+                                    <div class="analytices_logo"><img src="img/clientes/instituto-nacional-torax.png" class="img-fluid" alt="Instituto Nacional del Tórax"></div>
                                 </div>
                                 <div class="col-md-3 col-sm-4 col-6">
-                                    <a href="https://www.cruzblanca.cl/" class="analytices_logo"><img src="img/clientes/cruzblanca.png" class="img-fluid" alt="CruzBlanca"></a>
+                                    <div class="analytices_logo"><img src="img/clientes/cruzblanca.png" class="img-fluid" alt="CruzBlanca"></div>
                                 </div>
                                 <div class="col-md-3 col-sm-4 col-6">
-                                    <a href="https://www.nuevamasvida.cl/" class="analytices_logo"><img src="img/clientes/nueva-masvida.png" class="img-fluid" alt="Nueva Masvida"></a>
+                                    <div class="analytices_logo"><img src="img/clientes/nueva-masvida.png" class="img-fluid" alt="Nueva Masvida"></div>
                                 </div>
                                 <div class="col-md-3 col-sm-4 col-6">
-                                    <a href="https://web.segurosfalabella.com/cl/" class="analytices_logo"><img src="img/clientes/seguros-falabella.png" class="img-fluid" alt="Seguros Falabella"></a>
+                                    <div class="analytices_logo"><img src="img/clientes/seguros-falabella.png" class="img-fluid" alt="Seguros Falabella"></div>
                                 </div>
                                 <div class="col-md-3 col-sm-4 col-6">
-                                    <a href="https://www.renca.cl/" class="analytices_logo"><img src="img/clientes/renca.png" class="img-fluid" alt="Municipalidad de Renca"></a>
+                                    <div class="analytices_logo"><img src="img/clientes/renca.png" class="img-fluid" alt="Municipalidad de Renca"></div>
                                 </div>
                             </div>
                           </div>
                           <div class="carousel-item" data-interval="2000">
                             <div class="row">
                               <div class="col-md-3 col-sm-4 col-6">
-                                  <a href="https://www.pucobre.cl/" class="analytices_logo"><img src="img/clientes/pucobre.png" class="img-fluid" alt="Pucobre"></a>
+                                  <div class="analytices_logo"><img src="img/clientes/pucobre.png" class="img-fluid" alt="Pucobre"></div>
                               </div>
                               <div class="col-md-3 col-sm-4 col-6">
-                                  <a href="https://www.clarochile.cl/" class="analytices_logo"><img src="img/clientes/claro.png" class="img-fluid" alt="Claro"></a>
+                                  <div class="analytices_logo"><img src="img/clientes/claro.png" class="img-fluid" alt="Claro"></div>
                               </div>
                               <div class="col-md-3 col-sm-4 col-6">
-                                  <a href="https://www.sbins.cl/" class="analytices_logo"><img src="img/clientes/southbridge.png" class="img-fluid" alt="Southbridge"></a>
+                                  <div class="analytices_logo"><img src="img/clientes/southbridge.png" class="img-fluid" alt="Southbridge"></div>
                               </div>
                                 <div class="col-md-3 col-sm-4 col-6">
-                                    <a href="https://www.bicevida.cl/" class="analytices_logo"><img src="img/clientes/bicevida.png" class="img-fluid" alt="Bice Vida"></a>
+                                    <div class="analytices_logo"><img src="img/clientes/bicevida.png" class="img-fluid" alt="Bice Vida"></div>
                                 </div>
                                 <div class="col-md-3 col-sm-4 col-6">
-                                    <a href="https://www.farmaciasahumada.cl/" class="analytices_logo"><img src="img/clientes/farmacias-ahumada.png" class="img-fluid" alt="Farmacias Ahumada"></a>
+                                    <div class="analytices_logo"><img src="img/clientes/farmacias-ahumada.png" class="img-fluid" alt="Farmacias Ahumada"></div>
                                 </div>
                                 <div class="col-md-3 col-sm-4 col-6">
-                                    <a href="https://www.pharol.cl/" class="analytices_logo"><img src="https://www.mediclic.cl/img/carrusel/8pharol.jpg" class="img-fluid" alt="Pharol"></a>
+                                    <div class="analytices_logo"><img src="img/clientes/pharol.png" class="img-fluid" alt="Pharol"></div>
                                 </div>
                                 <div class="col-md-3 col-sm-4 col-6">
-                                    <a href="https://www.medicine.abbott/cl/index.html" class="analytices_logo"><img src="img/clientes/abbott.png" class="img-fluid" alt="Abbott"></a>
+                                    <div class="analytices_logo"><img src="img/clientes/abbott.png" class="img-fluid" alt="Abbott"></div>
                                 </div>
                                 <div class="col-md-3 col-sm-4 col-6">
-                                    <a href="https://www.upjohnatulado.com/" class="analytices_logo"><img src="img/clientes/upjohn.png" class="img-fluid" alt="Up John"></a>
+                                    <div class="analytices_logo"><img src="img/clientes/upjohn.png" class="img-fluid" alt="Up John"></div>
                                 </div>
                                 <div class="col-md-3 col-sm-4 col-6">
-                                    <a href="https://www.bci.cl/" class="analytices_logo"><img src="img/clientes/bci-seguros.png" class="img-fluid" alt="BCI"></a>
+                                    <div class="analytices_logo"><img src="img/clientes/bci-seguros.png" class="img-fluid" alt="BCI"></div>
                                 </div>
                                 <div class="col-md-3 col-sm-4 col-6">
-                                    <a href="https://banco.itau.cl/" class="analytices_logo"><img src="img/clientes/itau.png" class="img-fluid" alt="Itaú"></a>
+                                    <div class="analytices_logo"><img src="img/clientes/itau.png" class="img-fluid" alt="Itaú"></div>
                                 </div>
                                 <div class="col-md-3 col-sm-4 col-6">
-                                    <a href="https://www.dupont.com/" class="analytices_logo"><img src="img/clientes/dupont.png" class="img-fluid" alt="DuPont"></a>
+                                    <div class="analytices_logo"><img src="img/clientes/dupont.png" class="img-fluid" alt="DuPont"></div>
                                 </div>
                                 <div class="col-md-3 col-sm-4 col-6">
-                                    <a href="https://westernunionmexico.com/" class="analytices_logo"><img src="img/clientes/western-union.png" class="img-fluid" alt="Western Union"></a>
+                                    <div class="analytices_logo"><img src="img/clientes/western-union.png" class="img-fluid" alt="Western Union"></div>
                                 </div>
                             </div>
                           </div>
                           <div class="carousel-item" data-interval="2000">
                             <div class="row">
                                 <div class="col-md-3 col-sm-4 col-6">
-                                    <a href="https://www.surasistencia.cl/" class="analytices_logo"><img src="img/clientes/sur-asistencia.png" class="img-fluid" alt="Sur Asistencia"></a>
+                                    <div class="analytices_logo"><img src="img/clientes/sur-asistencia.png" class="img-fluid" alt="Sur Asistencia"></div>
                                 </div>
                                 <div class="col-md-3 col-sm-4 col-6">
-                                    <a href="https://www.cfsegurosdevida.cl/" class="analytices_logo"><img src="img/clientes/seguros-de-vida.png" class="img-fluid" alt="CF Seguros de Vida"></a>
+                                    <div class="analytices_logo"><img src="img/clientes/seguros-vida.png" class="img-fluid" alt="CF Seguros de Vida"></div>
                                 </div>
                                 <div class="col-md-3 col-sm-4 col-6">
-                                    <a href="https://www.benefits.cl/" class="analytices_logo"><img src="img/clientes/benefits.png" class="img-fluid" alt="Benefits"></a>
+                                    <div class="analytices_logo"><img src="img/clientes/benefits.png" class="img-fluid" alt="Benefits"></div>
                                 </div>
                                 <div class="col-md-3 col-sm-4 col-6">
-                                    <a href="https://www.hunterdouglas.cl/" class="analytices_logo"><img src="img/clientes/hunterdouglas.png" class="img-fluid" alt="Hunter Douglas"></a>
+                                    <div class="analytices_logo"><img src="img/clientes/hunter-douglas.png" class="img-fluid" alt="Hunter Douglas"></div>
                                 </div>
                                 <div class="col-md-3 col-sm-4 col-6">
-                                    <a href="https://www.tiendapago.com/" class="analytices_logo"><img src="img/clientes/tienda-pago.png" class="img-fluid" alt="Tienda Pago"></a>
+                                    <div class="analytices_logo"><img src="img/clientes/tienda-pago.png" class="img-fluid" alt="Tienda Pago"></div>
                                 </div>
                                 <div class="col-md-3 col-sm-4 col-6">
-                                    <a href="https://www.zurich.cl/" class="analytices_logo"><img src="img/clientes/zurich.png" class="img-fluid" alt="Zurich"></a>
+                                    <div class="analytices_logo"><img src="img/clientes/zurich.png" class="img-fluid" alt="Zurich"></div>
                                 </div>
                                 <div class="col-md-3 col-sm-4 col-6">
-                                    <a href="https://www.chubb.com/" class="analytices_logo"><img src="img/clientes/chubb.png" class="img-fluid" alt="CHUBB"></a>
+                                    <div class="analytices_logo"><img src="img/clientes/chubb.png" class="img-fluid" alt="CHUBB"></div>
                                 </div>
                             </div>
                           </div>
@@ -583,8 +629,6 @@
             </div>
         </section>
 
-
-
     <section class="get_started_area pb-0">
           <div class="shap one"></div>
           <div class="shap two"></div>
@@ -597,8 +641,8 @@
                         <h3 class="f_400 f_p wow fadeInLeft" data-wow-delay="0.2s" style="visibility: visible; animation-delay: 0.2s; animation-name: fadeInLeft;">Mediclic</h3>
                         <h2 class="f_700 f_p f_size_40 l_height50 mb_20 wow fadeInLeft" data-wow-delay="0.3s" style="visibility: visible; animation-delay: 0.3s; animation-name: fadeInLeft;">Descarga la App ahora</h2>
                         <p class="f_400 f_p mb_40 wow fadeInLeft" data-wow-delay="0.4s" style="visibility: visible; animation-delay: 0.4s; animation-name: fadeInLeft;">Con una experiencia de uso sencilla, accede a telemedicina desde donde estés con tu celular.</p>
-                        <a href="https://play.google.com/store/apps/details?id=com.mediclic.mediclic1&hl=es_CL" class="app_btn app_btn_two Cus_getapp wow fadeInLeft" data-wow-delay="0.5s" style="visibility: hidden; animation-delay: 0.5s; animation-name: none;"><img src="img/home7/google_icon.png" class="pr-2" alt="">Google Play</a>
-                        <a href="https://apps.apple.com/cl/app/mediclic/id1143276587" class="app_btn app_btn_two wow fadeInLeft" data-wow-delay="0.6s" style="visibility: hidden; animation-delay: 0.6s; animation-name: none;"><i class="fab fa-apple"></i>App Store</a>
+                        <a href="https://play.google.com/store/apps/details?id=com.mediclic.mediclic1&hl=es_CL" target="_blank" class="app_btn app_btn_two Cus_getapp wow fadeInLeft" data-wow-delay="0.5s" style="visibility: hidden; animation-delay: 0.5s; animation-name: none;"><img src="img/home7/google_icon.png" class="pr-2" alt="">Google Play</a>
+                        <a href="https://apps.apple.com/cl/app/mediclic/id1143276587" target="_blank" class="app_btn app_btn_two wow fadeInLeft" data-wow-delay="0.6s" style="visibility: hidden; animation-delay: 0.6s; animation-name: none;"><i class="fab fa-apple"></i>App Store</a>
                     </div>
                 </div>
                 <div class="col-lg-6 text-right wow fadeInRight" data-wow-delay="0.7s" style="visibility: visible; animation-delay: 0.7s; animation-name: fadeInRight;">
@@ -608,15 +652,13 @@
         </div>
     </section>
 
-
-
     <section class="chat_area">
         <div class="container">
             <div class="row">
                 <div class="col-lg-7">
                     <div class="chat_content">
                         <h2 class="color-40">¿Necesitas una propuesta comercial?<br>Reunámonos.</h2>
-                        <a href="#" class="pos_btn">Agendar reunión</a>
+                        <a href="https://share.hsforms.com/108DcBsgXQdSk9eEoB-SVCw3rqxd" target="_blank" class="pos_btn">Agendar reunión</a>
                     </div>
                 </div>
                 <div class="col-lg-5">
@@ -625,24 +667,23 @@
                         <div class="media-body">
                             <div class="date">24<span>/</span>7<span>/</span>365</div>
                             <h3>¿Tienes algún reclamo?</h3>
-                            <a href="https://www.mediclic.cl/landings/gestiondereclamos/" class="pos_service_btn">Tu opinión nos importa<i class="arrow_right"></i></a>
+                            <a href="https://www.mediclic.cl/landings/gestiondereclamos/" target="_blank" class="pos_service_btn">Tu opinión nos importa<i class="arrow_right"></i></a>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </section>
-  </section>
+
   <section class="pos_action_area">
       <div class="container">
           <div class="pos_action_content text-center">
               <h2>Sé parte del ecosistema de salud Mediclic</h2>
               <p>Cuenta con un médico siempre que lo necesites.</p>
-              <a href="#" class="pos_btn">Quiero probarlo</a>
+              <a href="https://share.hsforms.com/108DcBsgXQdSk9eEoB-SVCw3rqxd" target="_blank" class="pos_btn">Quiero probarlo</a>
           </div>
       </div>
   </section>
-
 
         <footer class="footer_area footer_area_four f_bg">
                     <div class="footer_top">
@@ -650,55 +691,45 @@
                             <div class="row">
                                 <div class="col-lg-3 col-md-6">
                                     <div class="f_widget company_widget">
-                                        <a href="index.html" class="f-logo"><img src="img/logo.png" srcset="img/logo2x.png 2x" alt=""></a>
+                                        <a href="#" class="f-logo"><img src="img/logo.png" srcset="img/logo2x.png 2x" alt=""></a>
                                         <div class="widget-wrap">
                                             <p class="f_400 f_p f_size_15 mb-0 l_height34"><span>Email:</span> <a href="mailto:contacto@mediclic.cl" class="f_400">contacto@mediclic.cl</a></p>
-                                            <p class="f_400 f_p f_size_15 mb-0 l_height34"><span>Phone:</span> <a href="tel:948256347968" class="f_400">+948 256 347 968</a></p>
+                                            <!-- <p class="f_400 f_p f_size_15 mb-0 l_height34"><span>Phone:</span> <a href="tel:948256347968" class="f_400">+948 256 347 968</a></p> -->
                                         </div>
-                                        <form action="#" class="f_subscribe mailchimp" method="post">
+                                        <!-- <form action="#" class="f_subscribe mailchimp" method="post">
                                             <input type="text" name="EMAIL" class="form-control memail" placeholder="Email">
                                             <button class="btn btn-submit" type="submit"><i class="ti-arrow-right"></i></button>
                                             <p class="mchimp-errmessage" style="display: none;"></p>
                                             <p class="mchimp-sucmessage" style="display: none;"></p>
-                                        </form>
+                                        </form> -->
                                     </div>
                                 </div>
                                 <div class="col-lg-3 col-md-6">
                                     <div class="f_widget about-widget pl_40">
-                                        <h3 class="f-title f_600 t_color f_size_18 mb_40">Nosotros</h3>
+                                        <h3 class="f-title f_700 t_color f_size_18 mb_40">Productos</h3>
                                         <ul class="list-unstyled f_list">
-                                            <li><a href="#">Company</a></li>
-                                            <li><a href="#">Leadership</a></li>
-                                            <li><a href="#">Diversity</a></li>
-                                            <li><a href="#">Jobs</a></li>
-                                            <li><a href="#">Press</a></li>
-                                            <li><a href="#">Wavelength</a></li>
+                                          <li><a href="https://bit.ly/33HigER" target="_blank">Prestadores de Salud</a></li>
+                                          <li><a href="https://bit.ly/3dqMYVS" target="_blank">Municipios</a></li>
+                                          <li><a href="https://bit.ly/31sLeJy" target="_blank">Jornadas de Salud</a></li>
+                                          <li><a href="https://www.mediclic.cl/landings/saludpreventiva/" target="_blank">Salud Preventiva</a></li>
+                                          <li><a href="https://bit.ly/3dQXAhC" target="_blank">Medipunto</a></li>
+                                          <li><a href="https://bit.ly/2Lu71aD" target="_blank">Nutricontigo</a></li>
                                         </ul>
                                     </div>
                                 </div>
                                 <div class="col-lg-3 col-md-6">
                                     <div class="f_widget about-widget">
-                                        <h3 class="f-title f_600 t_color f_size_18 mb_40">Soluciones</h3>
+                                        <h3 class="f-title f_700 t_color f_size_18 mb_40">Nosotros</h3>
                                         <ul class="list-unstyled f_list">
-                                            <li><a href="#">Project Management</a></li>
-                                            <li><a href="#">Agile</a></li>
-                                            <li><a href="#">Task Management</a></li>
-                                            <li><a href="#">Reporting</a></li>
-                                            <li><a href="#">Work Tracking</a></li>
-                                            <li><a href="#">See All Uses</a></li>
+                                            <li><a href="https://bit.ly/3bAtXQ5" target="_blank">Nuestro Equipo</a></li>
                                         </ul>
                                     </div>
                                 </div>
                                 <div class="col-lg-3 col-md-6 pl-20">
                                     <div class="f_widget about-widget">
-                                        <h3 class="f-title f_600 t_color f_size_18 mb_40">Servicios</h3>
+                                        <h3 class="f-title f_700 t_color f_size_18 mb_40">Blog</h3>
                                         <ul class="list-unstyled f_list">
-                                            <li><a href="#">Engineering</a></li>
-                                            <li><a href="#">Designers</a></li>
-                                            <li><a href="#">Sales</a></li>
-                                            <li><a href="#">Developers</a></li>
-                                            <li><a href="#">Marketing</a></li>
-                                            <li><a href="#">See All Teams</a></li>
+                                            <li><a href="https://bit.ly/2Wt6o7r" target="_blank">Últimas entradas</a></li>
                                         </ul>
                                     </div>
                                 </div>
@@ -709,21 +740,21 @@
                         <div class="container">
                             <div class="row align-items-center">
                                 <div class="col-lg-4 col-md-5 col-sm-6">
-                                    <p class="mb-0 f_400">Copyright © 2021 Diseñado por <a href="#">Mediclic</a></p>
+                                    <p class="mb-0 f_400">Copyright © 2021 Diseñado por <a href="https://www.mediclic.cl/">Mediclic</a></p>
                                 </div>
                                 <div class="col-lg-4 col-md-3 col-sm-6">
                                     <div class="f_social_icon_two text-center">
-                                        <a href="https://web.facebook.com/Medicliccl/"><i class="ti-facebook"></i></a>
-                                        <a href="https://twitter.com/Mediclic_Chile"><i class="ti-twitter-alt"></i></a>
-                                        <a href="https://www.instagram.com/mediclic_cl/" class="ti-instagram"></a>
-                                        <a href="https://www.linkedin.com/company/mediclic/" class="ti-linkedin"></a>
-                                        <a href="https://www.youtube.com/channel/UC5NjpnPHKICP7UE2kk4QZzw" class="fab fa-youtube"></a>
+                                        <a href="https://web.facebook.com/Medicliccl/" target="_blank"><i class="ti-facebook"></i></a>
+                                        <a href="https://twitter.com/Mediclic_Chile" target="_blank"><i class="ti-twitter-alt"></i></a>
+                                        <a href="https://www.instagram.com/mediclic_cl/" target="_blank" class="ti-instagram"></a>
+                                        <a href="https://www.linkedin.com/company/mediclic/" target="_blank" class="ti-linkedin"></a>
+                                        <a href="https://www.youtube.com/channel/UC5NjpnPHKICP7UE2kk4QZzw" target="_blank" class="fab fa-youtube"></a>
                                     </div>
                                 </div>
                                 <div class="col-lg-4 col-md-4 col-sm-12">
                                     <ul class="list-unstyled f_menu text-right">
-                                        <li><a href="#">Términos de uso</a></li>
-                                        <li><a href="#">Política de privacidad</a></li>
+                                        <!-- <li><a href="#">Términos de uso</a></li> -->
+                                        <li><a href="https://www.mediclic.cl/privacidad-videoconsultas-medicas-en-linea/" target="_blank">Política de privacidad</a></li>
                                     </ul>
                                 </div>
                             </div>
@@ -732,6 +763,8 @@
                 </footer>
 
     </div>
+
+
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="js/jquery-3.2.1.min.js"></script>
@@ -755,10 +788,6 @@
 
     <script src="js/fade.js"></script>
     <script src="js/theme-custom.js"></script>
-
-
-
-
 
 
 

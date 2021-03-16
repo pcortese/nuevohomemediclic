@@ -1,5 +1,5 @@
 .collab_background-img {
-  background-image: url(../img/pos/prueba1.jpg);
+  background-image: url(../img/pos/banner-c3.jpg);
   background-position: top;
   background-size: cover;
   background-repeat: no-repeat;
@@ -8,7 +8,7 @@
 
 .video_background-img {
   background-image: url(../img/pos/video_preview.jpg);
-  background-position: top;
+  background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -50,6 +50,10 @@
   color: #707070!important;
 }
 
+.uppercase {
+  text-transform: uppercase;
+}
+
 .btn_get_two-secondary {
   box-shadow: none;
   background: #D1E595;
@@ -85,14 +89,21 @@
     bottom: 0;
     left: 0;
     overflow: hidden;
-    z-index: -100;
+    /* z-index: -100; */
 }
 
 .fullscreen-bg__video {
     position: absolute;
-    top: 0;
+    top: -70px;
     left: 0;
+    bottom: 0;
+    right: 0;
     width: 100%;
+}
+@media (max-width:1023.9px){
+  .fullscreen-bg__video, .fullscreen-bg {
+    display: none;
+  }
 }
 
 .payment_features_item:hover {
@@ -101,7 +112,7 @@
 }
 .payment_features_item:hover > * {
   color: #fff!important;
-    transition: all 0.3s linear;
+  transition: all 0.1s linear;
 }
 
 .app_btn-green {
@@ -123,7 +134,8 @@
 
 @media (max-width:576px){
   .payment_features_item h4 {
-    font-size: 18px;
+    font-size: 16px;
+    font-weight: 600;
   }
 }
 
@@ -145,7 +157,7 @@
  }
  .elemator_inner_item p {
    font-size: 14px;
-   line-height: 140%;
+   line-height: 130%;
    font-weight: 400;
    margin-bottom: 0;
    color: #707070;
