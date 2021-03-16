@@ -1026,7 +1026,7 @@
   var heading = $(".typed");
   if (heading.length) {
     heading.typed({
-      strings: ["integral", "en tu hogar", "donde estés"],
+      strings: ["conectada", "donde estés", "siempre"],
       // Optionally use an HTML element to grab strings from (must wrap each string in a <p>)
       stringsElement: null,
       typeSpeed: 30,
